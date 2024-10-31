@@ -1,0 +1,1415 @@
+<routes>
+        <vType id="car" vClass="passenger" length="4" maxSpeed="25.0" accel="2.6" decel="4.5"/>
+        <vType id="truck" vClass="truck" length="10" maxSpeed="20.0" accel="1.2" decel="2.5"/>
+
+        <route id="r_0" edges="3i 1o"/>
+        <route id="r_1" edges="3i 4o"/>
+        <route id="r_10" edges="2i 3o"/>
+        <route id="r_11" edges="2i 4o"/>
+        <route id="r_2" edges="3i 2o"/>
+        <route id="r_3" edges="4i 3o"/>
+        <route id="r_4" edges="4i 2o"/>
+        <route id="r_5" edges="4i 1o"/>
+        <route id="r_6" edges="1i 2o"/>
+        <route id="r_7" edges="1i 4o"/>
+        <route id="r_8" edges="1i 3o"/>
+        <route id="r_9" edges="2i 1o"/>
+    <vehicle id="SN_0" type="car" route="r_1" depart="0" color="0,0,1"/>
+    <vehicle id="NS_1" type="car" route="r_11" depart="1" color="0,1,0"/>
+    <vehicle id="WE_2" type="car" route="r_6" depart="2" />
+    <vehicle id="SN_4" type="car" route="r_2" depart="4" color="0,0,1"/>
+    <vehicle id="EW_7" type="car" route="r_4" depart="7" color= "1,0,0"/>
+    <vehicle id="NS_15" type="truck" route="r_11" depart="15" color="0,1,0"/>
+    <vehicle id="SN_16" type="car" route="r_2" depart="16" color="0,0,1"/>
+    <vehicle id="NS_18" type="car" route="r_11" depart="18" color="0,1,0"/>
+    <vehicle id="SN_18" type="car" route="r_1" depart="18" color="0,0,1"/>
+    <vehicle id="SN_19" type="car" route="r_1" depart="19" color="0,0,1"/>
+    <vehicle id="NS_25" type="car" route="r_10" depart="25" color="0,1,0"/>
+    <vehicle id="NS_29" type="car" route="r_9" depart="29" color="0,1,0"/>
+    <vehicle id="WE_34" type="car" route="r_7" depart="34" />
+    <vehicle id="EW_39" type="car" route="r_3" depart="39" color= "1,0,0"/>
+    <vehicle id="NS_41" type="car" route="r_9" depart="41" color="0,1,0"/>
+    <vehicle id="NS_44" type="car" route="r_11" depart="44" color="0,1,0"/>
+    <vehicle id="EW_45" type="car" route="r_4" depart="45" color= "1,0,0"/>
+    <vehicle id="NS_45" type="car" route="r_9" depart="45" color="0,1,0"/>
+    <vehicle id="SN_48" type="car" route="r_0" depart="48" color="0,0,1"/>
+    <vehicle id="NS_49" type="car" route="r_9" depart="49" color="0,1,0"/>
+    <vehicle id="WE_51" type="car" route="r_6" depart="51" />
+    <vehicle id="NS_53" type="car" route="r_9" depart="53" color="0,1,0"/>
+    <vehicle id="SN_55" type="car" route="r_1" depart="55" color="0,0,1"/>
+    <vehicle id="SN_56" type="car" route="r_2" depart="56" color="0,0,1"/>
+    <vehicle id="NS_58" type="car" route="r_10" depart="58" color="0,1,0"/>
+    <vehicle id="SN_58" type="car" route="r_1" depart="58" color="0,0,1"/>
+    <vehicle id="WE_59" type="car" route="r_8" depart="59" />
+    <vehicle id="WE_61" type="car" route="r_6" depart="61" />
+    <vehicle id="NS_62" type="car" route="r_10" depart="62" color="0,1,0"/>
+    <vehicle id="WE_64" type="car" route="r_8" depart="64" />
+    <vehicle id="WE_65" type="car" route="r_7" depart="65" />
+    <vehicle id="SN_65" type="car" route="r_0" depart="65" color="0,0,1"/>
+    <vehicle id="SN_67" type="car" route="r_0" depart="67" color="0,0,1"/>
+    <vehicle id="NS_75" type="truck" route="r_10" depart="75" color="0,1,0"/>
+    <vehicle id="NS_78" type="car" route="r_11" depart="78" color="0,1,0"/>
+    <vehicle id="EW_83" type="car" route="r_4" depart="83" color= "1,0,0"/>
+    <vehicle id="EW_87" type="car" route="r_4" depart="87" color= "1,0,0"/>
+    <vehicle id="SN_87" type="car" route="r_0" depart="87" color="0,0,1"/>
+    <vehicle id="SN_88" type="car" route="r_1" depart="88" color="0,0,1"/>
+    <vehicle id="NS_89" type="truck" route="r_11" depart="89" color="0,1,0"/>
+    <vehicle id="WE_92" type="car" route="r_7" depart="92" />
+    <vehicle id="SN_93" type="car" route="r_0" depart="93" color="0,0,1"/>
+    <vehicle id="EW_94" type="car" route="r_4" depart="94" color= "1,0,0"/>
+    <vehicle id="NS_94" type="truck" route="r_11" depart="94" color="0,1,0"/>
+    <vehicle id="NS_97" type="car" route="r_10" depart="97" color="0,1,0"/>
+    <vehicle id="SN_97" type="truck" route="r_1" depart="97" color="0,0,1"/>
+    <vehicle id="WE_98" type="car" route="r_8" depart="98" />
+    <vehicle id="EW_100" type="car" route="r_4" depart="100" color= "1,0,0"/>
+    <vehicle id="EW_101" type="truck" route="r_3" depart="101" color= "1,0,0"/>
+    <vehicle id="NS_105" type="car" route="r_11" depart="105" color="0,1,0"/>
+    <vehicle id="NS_106" type="car" route="r_9" depart="106" color="0,1,0"/>
+    <vehicle id="SN_106" type="car" route="r_2" depart="106" color="0,0,1"/>
+    <vehicle id="WE_110" type="car" route="r_7" depart="110" />
+    <vehicle id="SN_110" type="car" route="r_1" depart="110" color="0,0,1"/>
+    <vehicle id="EW_112" type="car" route="r_4" depart="112" color= "1,0,0"/>
+    <vehicle id="SN_112" type="car" route="r_2" depart="112" color="0,0,1"/>
+    <vehicle id="WE_114" type="car" route="r_8" depart="114" />
+    <vehicle id="EW_114" type="car" route="r_4" depart="114" color= "1,0,0"/>
+    <vehicle id="WE_115" type="car" route="r_8" depart="115" />
+    <vehicle id="EW_115" type="car" route="r_5" depart="115" color= "1,0,0"/>
+    <vehicle id="EW_117" type="car" route="r_4" depart="117" color= "1,0,0"/>
+    <vehicle id="SN_118" type="car" route="r_1" depart="118" color="0,0,1"/>
+    <vehicle id="WE_119" type="car" route="r_8" depart="119" />
+    <vehicle id="EW_119" type="car" route="r_5" depart="119" color= "1,0,0"/>
+    <vehicle id="WE_121" type="car" route="r_8" depart="121" />
+    <vehicle id="SN_122" type="truck" route="r_0" depart="122" color="0,0,1"/>
+    <vehicle id="NS_123" type="car" route="r_10" depart="123" color="0,1,0"/>
+    <vehicle id="SN_123" type="car" route="r_0" depart="123" color="0,0,1"/>
+    <vehicle id="NS_124" type="car" route="r_11" depart="124" color="0,1,0"/>
+    <vehicle id="NS_128" type="car" route="r_10" depart="128" color="0,1,0"/>
+    <vehicle id="SN_128" type="car" route="r_1" depart="128" color="0,0,1"/>
+    <vehicle id="EW_132" type="car" route="r_4" depart="132" color= "1,0,0"/>
+    <vehicle id="WE_134" type="car" route="r_8" depart="134" />
+    <vehicle id="EW_135" type="car" route="r_3" depart="135" color= "1,0,0"/>
+    <vehicle id="EW_136" type="car" route="r_4" depart="136" color= "1,0,0"/>
+    <vehicle id="EW_138" type="car" route="r_3" depart="138" color= "1,0,0"/>
+    <vehicle id="WE_143" type="car" route="r_7" depart="143" />
+    <vehicle id="NS_146" type="car" route="r_9" depart="146" color="0,1,0"/>
+    <vehicle id="WE_149" type="car" route="r_7" depart="149" />
+    <vehicle id="NS_151" type="car" route="r_9" depart="151" color="0,1,0"/>
+    <vehicle id="SN_160" type="car" route="r_1" depart="160" color="0,0,1"/>
+    <vehicle id="WE_161" type="car" route="r_7" depart="161" />
+    <vehicle id="EW_164" type="car" route="r_3" depart="164" color= "1,0,0"/>
+    <vehicle id="SN_164" type="car" route="r_0" depart="164" color="0,0,1"/>
+    <vehicle id="WE_167" type="car" route="r_8" depart="167" />
+    <vehicle id="SN_167" type="car" route="r_2" depart="167" color="0,0,1"/>
+    <vehicle id="NS_168" type="car" route="r_9" depart="168" color="0,1,0"/>
+    <vehicle id="NS_171" type="truck" route="r_10" depart="171" color="0,1,0"/>
+    <vehicle id="SN_171" type="car" route="r_1" depart="171" color="0,0,1"/>
+    <vehicle id="EW_172" type="car" route="r_4" depart="172" color= "1,0,0"/>
+    <vehicle id="WE_173" type="car" route="r_8" depart="173" />
+    <vehicle id="WE_175" type="car" route="r_8" depart="175" />
+    <vehicle id="EW_176" type="car" route="r_4" depart="176" color= "1,0,0"/>
+    <vehicle id="NS_176" type="car" route="r_10" depart="176" color="0,1,0"/>
+    <vehicle id="NS_182" type="car" route="r_10" depart="182" color="0,1,0"/>
+    <vehicle id="SN_183" type="car" route="r_0" depart="183" color="0,0,1"/>
+    <vehicle id="WE_185" type="car" route="r_6" depart="185" />
+    <vehicle id="WE_192" type="car" route="r_6" depart="192" />
+    <vehicle id="NS_192" type="car" route="r_10" depart="192" color="0,1,0"/>
+    <vehicle id="EW_193" type="car" route="r_5" depart="193" color= "1,0,0"/>
+    <vehicle id="EW_194" type="car" route="r_4" depart="194" color= "1,0,0"/>
+    <vehicle id="NS_202" type="car" route="r_11" depart="202" color="0,1,0"/>
+    <vehicle id="SN_202" type="car" route="r_0" depart="202" color="0,0,1"/>
+    <vehicle id="EW_203" type="car" route="r_4" depart="203" color= "1,0,0"/>
+    <vehicle id="WE_205" type="car" route="r_8" depart="205" />
+    <vehicle id="EW_206" type="car" route="r_5" depart="206" color= "1,0,0"/>
+    <vehicle id="EW_208" type="car" route="r_4" depart="208" color= "1,0,0"/>
+    <vehicle id="WE_212" type="car" route="r_6" depart="212" />
+    <vehicle id="EW_213" type="car" route="r_4" depart="213" color= "1,0,0"/>
+    <vehicle id="SN_213" type="car" route="r_1" depart="213" color="0,0,1"/>
+    <vehicle id="NS_219" type="car" route="r_9" depart="219" color="0,1,0"/>
+    <vehicle id="NS_220" type="car" route="r_10" depart="220" color="0,1,0"/>
+    <vehicle id="NS_221" type="car" route="r_11" depart="221" color="0,1,0"/>
+    <vehicle id="EW_224" type="car" route="r_4" depart="224" color= "1,0,0"/>
+    <vehicle id="NS_226" type="car" route="r_11" depart="226" color="0,1,0"/>
+    <vehicle id="EW_227" type="car" route="r_4" depart="227" color= "1,0,0"/>
+    <vehicle id="WE_233" type="car" route="r_8" depart="233" />
+    <vehicle id="WE_235" type="car" route="r_6" depart="235" />
+    <vehicle id="WE_237" type="car" route="r_8" depart="237" />
+    <vehicle id="NS_244" type="car" route="r_11" depart="244" color="0,1,0"/>
+    <vehicle id="EW_252" type="car" route="r_4" depart="252" color= "1,0,0"/>
+    <vehicle id="NS_253" type="truck" route="r_11" depart="253" color="0,1,0"/>
+    <vehicle id="WE_255" type="car" route="r_6" depart="255" />
+    <vehicle id="NS_260" type="car" route="r_10" depart="260" color="0,1,0"/>
+    <vehicle id="WE_264" type="truck" route="r_8" depart="264" />
+    <vehicle id="EW_264" type="car" route="r_4" depart="264" color= "1,0,0"/>
+    <vehicle id="SN_264" type="car" route="r_0" depart="264" color="0,0,1"/>
+    <vehicle id="SN_266" type="car" route="r_0" depart="266" color="0,0,1"/>
+    <vehicle id="EW_267" type="truck" route="r_5" depart="267" color= "1,0,0"/>
+    <vehicle id="NS_270" type="car" route="r_9" depart="270" color="0,1,0"/>
+    <vehicle id="WE_271" type="car" route="r_6" depart="271" />
+    <vehicle id="SN_271" type="car" route="r_1" depart="271" color="0,0,1"/>
+    <vehicle id="EW_276" type="car" route="r_3" depart="276" color= "1,0,0"/>
+    <vehicle id="NS_279" type="car" route="r_10" depart="279" color="0,1,0"/>
+    <vehicle id="NS_281" type="car" route="r_11" depart="281" color="0,1,0"/>
+    <vehicle id="EW_286" type="car" route="r_5" depart="286" color= "1,0,0"/>
+    <vehicle id="NS_288" type="car" route="r_9" depart="288" color="0,1,0"/>
+    <vehicle id="NS_289" type="car" route="r_10" depart="289" color="0,1,0"/>
+    <vehicle id="NS_300" type="car" route="r_9" depart="300" color="0,1,0"/>
+    <vehicle id="NS_303" type="truck" route="r_10" depart="303" color="0,1,0"/>
+    <vehicle id="SN_306" type="car" route="r_0" depart="306" color="0,0,1"/>
+    <vehicle id="EW_311" type="car" route="r_3" depart="311" color= "1,0,0"/>
+    <vehicle id="SN_313" type="truck" route="r_2" depart="313" color="0,0,1"/>
+    <vehicle id="EW_315" type="car" route="r_5" depart="315" color= "1,0,0"/>
+    <vehicle id="SN_316" type="car" route="r_0" depart="316" color="0,0,1"/>
+    <vehicle id="NS_320" type="car" route="r_10" depart="320" color="0,1,0"/>
+    <vehicle id="NS_321" type="car" route="r_10" depart="321" color="0,1,0"/>
+    <vehicle id="WE_322" type="car" route="r_8" depart="322" />
+    <vehicle id="EW_323" type="car" route="r_4" depart="323" color= "1,0,0"/>
+    <vehicle id="EW_326" type="car" route="r_3" depart="326" color= "1,0,0"/>
+    <vehicle id="NS_326" type="car" route="r_9" depart="326" color="0,1,0"/>
+    <vehicle id="EW_327" type="car" route="r_3" depart="327" color= "1,0,0"/>
+    <vehicle id="NS_327" type="car" route="r_11" depart="327" color="0,1,0"/>
+    <vehicle id="EW_330" type="car" route="r_4" depart="330" color= "1,0,0"/>
+    <vehicle id="WE_334" type="car" route="r_8" depart="334" />
+    <vehicle id="EW_334" type="car" route="r_5" depart="334" color= "1,0,0"/>
+    <vehicle id="EW_335" type="car" route="r_5" depart="335" color= "1,0,0"/>
+    <vehicle id="SN_336" type="car" route="r_0" depart="336" color="0,0,1"/>
+    <vehicle id="NS_340" type="car" route="r_11" depart="340" color="0,1,0"/>
+    <vehicle id="SN_342" type="car" route="r_2" depart="342" color="0,0,1"/>
+    <vehicle id="SN_344" type="car" route="r_1" depart="344" color="0,0,1"/>
+    <vehicle id="WE_346" type="car" route="r_8" depart="346" />
+    <vehicle id="EW_348" type="car" route="r_5" depart="348" color= "1,0,0"/>
+    <vehicle id="EW_352" type="car" route="r_5" depart="352" color= "1,0,0"/>
+    <vehicle id="SN_352" type="car" route="r_0" depart="352" color="0,0,1"/>
+    <vehicle id="WE_354" type="car" route="r_6" depart="354" />
+    <vehicle id="EW_355" type="car" route="r_5" depart="355" color= "1,0,0"/>
+    <vehicle id="EW_357" type="car" route="r_5" depart="357" color= "1,0,0"/>
+    <vehicle id="SN_357" type="car" route="r_2" depart="357" color="0,0,1"/>
+    <vehicle id="SN_365" type="car" route="r_2" depart="365" color="0,0,1"/>
+    <vehicle id="NS_367" type="truck" route="r_10" depart="367" color="0,1,0"/>
+    <vehicle id="NS_369" type="car" route="r_10" depart="369" color="0,1,0"/>
+    <vehicle id="EW_370" type="car" route="r_3" depart="370" color= "1,0,0"/>
+    <vehicle id="WE_371" type="car" route="r_6" depart="371" />
+    <vehicle id="NS_373" type="truck" route="r_11" depart="373" color="0,1,0"/>
+    <vehicle id="SN_373" type="car" route="r_0" depart="373" color="0,0,1"/>
+    <vehicle id="SN_374" type="car" route="r_1" depart="374" color="0,0,1"/>
+    <vehicle id="NS_377" type="car" route="r_11" depart="377" color="0,1,0"/>
+    <vehicle id="NS_379" type="car" route="r_10" depart="379" color="0,1,0"/>
+    <vehicle id="SN_379" type="car" route="r_0" depart="379" color="0,0,1"/>
+    <vehicle id="WE_380" type="car" route="r_8" depart="380" />
+    <vehicle id="NS_385" type="car" route="r_9" depart="385" color="0,1,0"/>
+    <vehicle id="NS_391" type="car" route="r_9" depart="391" color="0,1,0"/>
+    <vehicle id="EW_394" type="car" route="r_5" depart="394" color= "1,0,0"/>
+    <vehicle id="NS_395" type="car" route="r_10" depart="395" color="0,1,0"/>
+    <vehicle id="NS_396" type="car" route="r_9" depart="396" color="0,1,0"/>
+    <vehicle id="SN_401" type="car" route="r_2" depart="401" color="0,0,1"/>
+    <vehicle id="EW_402" type="car" route="r_5" depart="402" color= "1,0,0"/>
+    <vehicle id="WE_411" type="car" route="r_6" depart="411" />
+    <vehicle id="EW_416" type="car" route="r_3" depart="416" color= "1,0,0"/>
+    <vehicle id="WE_421" type="car" route="r_7" depart="421" />
+    <vehicle id="WE_422" type="car" route="r_7" depart="422" />
+    <vehicle id="NS_426" type="car" route="r_10" depart="426" color="0,1,0"/>
+    <vehicle id="EW_430" type="car" route="r_4" depart="430" color= "1,0,0"/>
+    <vehicle id="NS_430" type="car" route="r_11" depart="430" color="0,1,0"/>
+    <vehicle id="EW_432" type="car" route="r_3" depart="432" color= "1,0,0"/>
+    <vehicle id="NS_436" type="car" route="r_10" depart="436" color="0,1,0"/>
+    <vehicle id="WE_441" type="car" route="r_8" depart="441" />
+    <vehicle id="WE_445" type="car" route="r_8" depart="445" />
+    <vehicle id="NS_449" type="car" route="r_11" depart="449" color="0,1,0"/>
+    <vehicle id="WE_451" type="car" route="r_8" depart="451" />
+    <vehicle id="WE_456" type="car" route="r_7" depart="456" />
+    <vehicle id="WE_459" type="car" route="r_8" depart="459" />
+    <vehicle id="EW_461" type="car" route="r_5" depart="461" color= "1,0,0"/>
+    <vehicle id="NS_469" type="truck" route="r_11" depart="469" color="0,1,0"/>
+    <vehicle id="WE_480" type="car" route="r_7" depart="480" />
+    <vehicle id="NS_481" type="car" route="r_10" depart="481" color="0,1,0"/>
+    <vehicle id="WE_482" type="car" route="r_6" depart="482" />
+    <vehicle id="NS_483" type="car" route="r_11" depart="483" color="0,1,0"/>
+    <vehicle id="NS_487" type="car" route="r_10" depart="487" color="0,1,0"/>
+    <vehicle id="WE_490" type="car" route="r_6" depart="490" />
+    <vehicle id="NS_490" type="car" route="r_11" depart="490" color="0,1,0"/>
+    <vehicle id="WE_491" type="car" route="r_8" depart="491" />
+    <vehicle id="NS_491" type="car" route="r_10" depart="491" color="0,1,0"/>
+    <vehicle id="SN_492" type="car" route="r_0" depart="492" color="0,0,1"/>
+    <vehicle id="EW_500" type="car" route="r_4" depart="500" color= "1,0,0"/>
+    <vehicle id="NS_503" type="car" route="r_10" depart="503" color="0,1,0"/>
+    <vehicle id="NS_504" type="car" route="r_10" depart="504" color="0,1,0"/>
+    <vehicle id="SN_504" type="car" route="r_1" depart="504" color="0,0,1"/>
+    <vehicle id="SN_506" type="truck" route="r_0" depart="506" color="0,0,1"/>
+    <vehicle id="SN_518" type="car" route="r_1" depart="518" color="0,0,1"/>
+    <vehicle id="EW_520" type="car" route="r_3" depart="520" color= "1,0,0"/>
+    <vehicle id="EW_524" type="car" route="r_4" depart="524" color= "1,0,0"/>
+    <vehicle id="NS_525" type="car" route="r_9" depart="525" color="0,1,0"/>
+    <vehicle id="NS_528" type="car" route="r_9" depart="528" color="0,1,0"/>
+    <vehicle id="SN_530" type="car" route="r_1" depart="530" color="0,0,1"/>
+    <vehicle id="NS_531" type="car" route="r_10" depart="531" color="0,1,0"/>
+    <vehicle id="WE_535" type="truck" route="r_7" depart="535" />
+    <vehicle id="EW_535" type="car" route="r_3" depart="535" color= "1,0,0"/>
+    <vehicle id="SN_542" type="car" route="r_2" depart="542" color="0,0,1"/>
+    <vehicle id="WE_553" type="car" route="r_6" depart="553" />
+    <vehicle id="EW_557" type="car" route="r_4" depart="557" color= "1,0,0"/>
+    <vehicle id="WE_558" type="car" route="r_6" depart="558" />
+    <vehicle id="SN_561" type="car" route="r_0" depart="561" color="0,0,1"/>
+    <vehicle id="NS_562" type="car" route="r_11" depart="562" color="0,1,0"/>
+    <vehicle id="WE_563" type="truck" route="r_6" depart="563" />
+    <vehicle id="NS_563" type="car" route="r_10" depart="563" color="0,1,0"/>
+    <vehicle id="NS_566" type="car" route="r_10" depart="566" color="0,1,0"/>
+    <vehicle id="EW_569" type="car" route="r_3" depart="569" color= "1,0,0"/>
+    <vehicle id="WE_570" type="car" route="r_6" depart="570" />
+    <vehicle id="SN_573" type="car" route="r_1" depart="573" color="0,0,1"/>
+    <vehicle id="SN_576" type="car" route="r_0" depart="576" color="0,0,1"/>
+    <vehicle id="NS_580" type="car" route="r_10" depart="580" color="0,1,0"/>
+    <vehicle id="EW_581" type="car" route="r_3" depart="581" color= "1,0,0"/>
+    <vehicle id="WE_582" type="car" route="r_7" depart="582" />
+    <vehicle id="SN_582" type="car" route="r_1" depart="582" color="0,0,1"/>
+    <vehicle id="EW_583" type="car" route="r_3" depart="583" color= "1,0,0"/>
+    <vehicle id="EW_584" type="car" route="r_3" depart="584" color= "1,0,0"/>
+    <vehicle id="SN_586" type="truck" route="r_1" depart="586" color="0,0,1"/>
+    <vehicle id="WE_592" type="truck" route="r_8" depart="592" />
+    <vehicle id="NS_595" type="car" route="r_11" depart="595" color="0,1,0"/>
+    <vehicle id="WE_596" type="truck" route="r_7" depart="596" />
+    <vehicle id="EW_596" type="car" route="r_3" depart="596" color= "1,0,0"/>
+    <vehicle id="SN_596" type="car" route="r_2" depart="596" color="0,0,1"/>
+    <vehicle id="NS_598" type="car" route="r_11" depart="598" color="0,1,0"/>
+    <vehicle id="WE_602" type="car" route="r_6" depart="602" />
+    <vehicle id="SN_602" type="car" route="r_0" depart="602" color="0,0,1"/>
+    <vehicle id="SN_606" type="car" route="r_2" depart="606" color="0,0,1"/>
+    <vehicle id="WE_607" type="truck" route="r_6" depart="607" />
+    <vehicle id="WE_608" type="car" route="r_7" depart="608" />
+    <vehicle id="SN_608" type="car" route="r_0" depart="608" color="0,0,1"/>
+    <vehicle id="WE_610" type="car" route="r_8" depart="610" />
+    <vehicle id="NS_610" type="truck" route="r_11" depart="610" color="0,1,0"/>
+    <vehicle id="WE_611" type="car" route="r_7" depart="611" />
+    <vehicle id="EW_611" type="car" route="r_3" depart="611" color= "1,0,0"/>
+    <vehicle id="SN_613" type="car" route="r_0" depart="613" color="0,0,1"/>
+    <vehicle id="WE_617" type="car" route="r_7" depart="617" />
+    <vehicle id="WE_618" type="car" route="r_8" depart="618" />
+    <vehicle id="SN_623" type="car" route="r_2" depart="623" color="0,0,1"/>
+    <vehicle id="EW_629" type="car" route="r_4" depart="629" color= "1,0,0"/>
+    <vehicle id="SN_630" type="car" route="r_0" depart="630" color="0,0,1"/>
+    <vehicle id="EW_637" type="car" route="r_5" depart="637" color= "1,0,0"/>
+    <vehicle id="EW_646" type="car" route="r_5" depart="646" color= "1,0,0"/>
+    <vehicle id="NS_649" type="car" route="r_11" depart="649" color="0,1,0"/>
+    <vehicle id="EW_664" type="truck" route="r_5" depart="664" color= "1,0,0"/>
+    <vehicle id="NS_664" type="car" route="r_9" depart="664" color="0,1,0"/>
+    <vehicle id="NS_666" type="truck" route="r_9" depart="666" color="0,1,0"/>
+    <vehicle id="NS_667" type="car" route="r_9" depart="667" color="0,1,0"/>
+    <vehicle id="SN_669" type="car" route="r_0" depart="669" color="0,0,1"/>
+    <vehicle id="SN_670" type="car" route="r_1" depart="670" color="0,0,1"/>
+    <vehicle id="SN_671" type="car" route="r_2" depart="671" color="0,0,1"/>
+    <vehicle id="SN_677" type="car" route="r_0" depart="677" color="0,0,1"/>
+    <vehicle id="NS_681" type="car" route="r_11" depart="681" color="0,1,0"/>
+    <vehicle id="SN_683" type="car" route="r_0" depart="683" color="0,0,1"/>
+    <vehicle id="EW_685" type="car" route="r_5" depart="685" color= "1,0,0"/>
+    <vehicle id="SN_688" type="truck" route="r_0" depart="688" color="0,0,1"/>
+    <vehicle id="SN_689" type="truck" route="r_1" depart="689" color="0,0,1"/>
+    <vehicle id="WE_692" type="car" route="r_6" depart="692" />
+    <vehicle id="WE_697" type="car" route="r_8" depart="697" />
+    <vehicle id="NS_699" type="car" route="r_9" depart="699" color="0,1,0"/>
+    <vehicle id="NS_702" type="car" route="r_10" depart="702" color="0,1,0"/>
+    <vehicle id="SN_712" type="truck" route="r_2" depart="712" color="0,0,1"/>
+    <vehicle id="EW_714" type="car" route="r_3" depart="714" color= "1,0,0"/>
+    <vehicle id="SN_714" type="car" route="r_2" depart="714" color="0,0,1"/>
+    <vehicle id="EW_715" type="car" route="r_4" depart="715" color= "1,0,0"/>
+    <vehicle id="WE_717" type="car" route="r_8" depart="717" />
+    <vehicle id="WE_722" type="car" route="r_7" depart="722" />
+    <vehicle id="NS_724" type="car" route="r_11" depart="724" color="0,1,0"/>
+    <vehicle id="EW_727" type="truck" route="r_4" depart="727" color= "1,0,0"/>
+    <vehicle id="NS_730" type="car" route="r_11" depart="730" color="0,1,0"/>
+    <vehicle id="SN_736" type="car" route="r_0" depart="736" color="0,0,1"/>
+    <vehicle id="NS_738" type="truck" route="r_9" depart="738" color="0,1,0"/>
+    <vehicle id="WE_744" type="car" route="r_7" depart="744" />
+    <vehicle id="NS_744" type="car" route="r_11" depart="744" color="0,1,0"/>
+    <vehicle id="NS_745" type="car" route="r_9" depart="745" color="0,1,0"/>
+    <vehicle id="NS_747" type="car" route="r_10" depart="747" color="0,1,0"/>
+    <vehicle id="EW_750" type="car" route="r_5" depart="750" color= "1,0,0"/>
+    <vehicle id="NS_755" type="car" route="r_11" depart="755" color="0,1,0"/>
+    <vehicle id="WE_765" type="car" route="r_6" depart="765" />
+    <vehicle id="SN_765" type="car" route="r_2" depart="765" color="0,0,1"/>
+    <vehicle id="SN_769" type="truck" route="r_2" depart="769" color="0,0,1"/>
+    <vehicle id="SN_770" type="car" route="r_2" depart="770" color="0,0,1"/>
+    <vehicle id="EW_771" type="car" route="r_3" depart="771" color= "1,0,0"/>
+    <vehicle id="SN_773" type="truck" route="r_2" depart="773" color="0,0,1"/>
+    <vehicle id="WE_774" type="car" route="r_7" depart="774" />
+    <vehicle id="SN_776" type="car" route="r_0" depart="776" color="0,0,1"/>
+    <vehicle id="EW_781" type="truck" route="r_4" depart="781" color= "1,0,0"/>
+    <vehicle id="EW_782" type="truck" route="r_3" depart="782" color= "1,0,0"/>
+    <vehicle id="SN_782" type="car" route="r_0" depart="782" color="0,0,1"/>
+    <vehicle id="NS_785" type="car" route="r_10" depart="785" color="0,1,0"/>
+    <vehicle id="NS_789" type="car" route="r_11" depart="789" color="0,1,0"/>
+    <vehicle id="SN_793" type="car" route="r_2" depart="793" color="0,0,1"/>
+    <vehicle id="EW_794" type="car" route="r_3" depart="794" color= "1,0,0"/>
+    <vehicle id="NS_794" type="car" route="r_9" depart="794" color="0,1,0"/>
+    <vehicle id="NS_795" type="car" route="r_10" depart="795" color="0,1,0"/>
+    <vehicle id="NS_796" type="car" route="r_11" depart="796" color="0,1,0"/>
+    <vehicle id="SN_800" type="car" route="r_2" depart="800" color="0,0,1"/>
+    <vehicle id="SN_804" type="car" route="r_0" depart="804" color="0,0,1"/>
+    <vehicle id="WE_809" type="car" route="r_7" depart="809" />
+    <vehicle id="WE_813" type="car" route="r_7" depart="813" />
+    <vehicle id="SN_813" type="car" route="r_0" depart="813" color="0,0,1"/>
+    <vehicle id="SN_815" type="car" route="r_0" depart="815" color="0,0,1"/>
+    <vehicle id="EW_816" type="car" route="r_4" depart="816" color= "1,0,0"/>
+    <vehicle id="EW_817" type="car" route="r_5" depart="817" color= "1,0,0"/>
+    <vehicle id="SN_827" type="car" route="r_0" depart="827" color="0,0,1"/>
+    <vehicle id="SN_828" type="car" route="r_0" depart="828" color="0,0,1"/>
+    <vehicle id="WE_830" type="car" route="r_7" depart="830" />
+    <vehicle id="WE_835" type="car" route="r_7" depart="835" />
+    <vehicle id="WE_838" type="car" route="r_6" depart="838" />
+    <vehicle id="WE_839" type="car" route="r_7" depart="839" />
+    <vehicle id="EW_841" type="car" route="r_5" depart="841" color= "1,0,0"/>
+    <vehicle id="SN_841" type="car" route="r_2" depart="841" color="0,0,1"/>
+    <vehicle id="WE_844" type="car" route="r_8" depart="844" />
+    <vehicle id="EW_847" type="car" route="r_3" depart="847" color= "1,0,0"/>
+    <vehicle id="WE_848" type="car" route="r_6" depart="848" />
+    <vehicle id="NS_853" type="car" route="r_11" depart="853" color="0,1,0"/>
+    <vehicle id="EW_858" type="car" route="r_5" depart="858" color= "1,0,0"/>
+    <vehicle id="EW_863" type="car" route="r_3" depart="863" color= "1,0,0"/>
+    <vehicle id="NS_863" type="car" route="r_9" depart="863" color="0,1,0"/>
+    <vehicle id="SN_864" type="car" route="r_0" depart="864" color="0,0,1"/>
+    <vehicle id="NS_873" type="car" route="r_10" depart="873" color="0,1,0"/>
+    <vehicle id="SN_876" type="car" route="r_0" depart="876" color="0,0,1"/>
+    <vehicle id="WE_877" type="car" route="r_6" depart="877" />
+    <vehicle id="WE_878" type="car" route="r_8" depart="878" />
+    <vehicle id="EW_882" type="car" route="r_3" depart="882" color= "1,0,0"/>
+    <vehicle id="SN_887" type="truck" route="r_0" depart="887" color="0,0,1"/>
+    <vehicle id="SN_893" type="car" route="r_0" depart="893" color="0,0,1"/>
+    <vehicle id="WE_895" type="car" route="r_6" depart="895" />
+    <vehicle id="NS_895" type="car" route="r_9" depart="895" color="0,1,0"/>
+    <vehicle id="SN_895" type="car" route="r_2" depart="895" color="0,0,1"/>
+    <vehicle id="WE_901" type="car" route="r_8" depart="901" />
+    <vehicle id="WE_903" type="car" route="r_8" depart="903" />
+    <vehicle id="EW_903" type="car" route="r_3" depart="903" color= "1,0,0"/>
+    <vehicle id="SN_903" type="truck" route="r_0" depart="903" color="0,0,1"/>
+    <vehicle id="SN_907" type="car" route="r_1" depart="907" color="0,0,1"/>
+    <vehicle id="WE_908" type="car" route="r_8" depart="908" />
+    <vehicle id="SN_909" type="car" route="r_1" depart="909" color="0,0,1"/>
+    <vehicle id="EW_910" type="car" route="r_5" depart="910" color= "1,0,0"/>
+    <vehicle id="SN_912" type="car" route="r_0" depart="912" color="0,0,1"/>
+    <vehicle id="WE_914" type="car" route="r_6" depart="914" />
+    <vehicle id="NS_918" type="car" route="r_9" depart="918" color="0,1,0"/>
+    <vehicle id="EW_922" type="truck" route="r_5" depart="922" color= "1,0,0"/>
+    <vehicle id="WE_926" type="car" route="r_7" depart="926" />
+    <vehicle id="SN_926" type="truck" route="r_0" depart="926" color="0,0,1"/>
+    <vehicle id="EW_927" type="car" route="r_3" depart="927" color= "1,0,0"/>
+    <vehicle id="EW_928" type="car" route="r_4" depart="928" color= "1,0,0"/>
+    <vehicle id="SN_928" type="car" route="r_1" depart="928" color="0,0,1"/>
+    <vehicle id="SN_930" type="car" route="r_0" depart="930" color="0,0,1"/>
+    <vehicle id="NS_933" type="car" route="r_11" depart="933" color="0,1,0"/>
+    <vehicle id="NS_934" type="car" route="r_10" depart="934" color="0,1,0"/>
+    <vehicle id="WE_936" type="car" route="r_6" depart="936" />
+    <vehicle id="EW_936" type="car" route="r_4" depart="936" color= "1,0,0"/>
+    <vehicle id="SN_939" type="car" route="r_2" depart="939" color="0,0,1"/>
+    <vehicle id="EW_941" type="car" route="r_5" depart="941" color= "1,0,0"/>
+    <vehicle id="WE_953" type="car" route="r_6" depart="953" />
+    <vehicle id="WE_954" type="car" route="r_8" depart="954" />
+    <vehicle id="EW_955" type="car" route="r_5" depart="955" color= "1,0,0"/>
+    <vehicle id="NS_957" type="car" route="r_11" depart="957" color="0,1,0"/>
+    <vehicle id="NS_958" type="car" route="r_9" depart="958" color="0,1,0"/>
+    <vehicle id="EW_959" type="truck" route="r_4" depart="959" color= "1,0,0"/>
+    <vehicle id="SN_961" type="truck" route="r_1" depart="961" color="0,0,1"/>
+    <vehicle id="NS_966" type="car" route="r_9" depart="966" color="0,1,0"/>
+    <vehicle id="SN_967" type="car" route="r_1" depart="967" color="0,0,1"/>
+    <vehicle id="SN_971" type="car" route="r_2" depart="971" color="0,0,1"/>
+    <vehicle id="NS_972" type="car" route="r_10" depart="972" color="0,1,0"/>
+    <vehicle id="NS_979" type="car" route="r_11" depart="979" color="0,1,0"/>
+    <vehicle id="EW_982" type="car" route="r_3" depart="982" color= "1,0,0"/>
+    <vehicle id="SN_983" type="car" route="r_2" depart="983" color="0,0,1"/>
+    <vehicle id="WE_984" type="car" route="r_8" depart="984" />
+    <vehicle id="NS_984" type="car" route="r_9" depart="984" color="0,1,0"/>
+    <vehicle id="NS_988" type="car" route="r_11" depart="988" color="0,1,0"/>
+    <vehicle id="NS_989" type="car" route="r_9" depart="989" color="0,1,0"/>
+    <vehicle id="NS_994" type="car" route="r_10" depart="994" color="0,1,0"/>
+    <vehicle id="WE_995" type="car" route="r_6" depart="995" />
+    <vehicle id="EW_998" type="car" route="r_5" depart="998" color= "1,0,0"/>
+    <vehicle id="EW_1000" type="car" route="r_5" depart="1000" color= "1,0,0"/>
+    <vehicle id="NS_1005" type="truck" route="r_9" depart="1005" color="0,1,0"/>
+    <vehicle id="SN_1005" type="car" route="r_2" depart="1005" color="0,0,1"/>
+    <vehicle id="NS_1008" type="car" route="r_9" depart="1008" color="0,1,0"/>
+    <vehicle id="EW_1009" type="car" route="r_3" depart="1009" color= "1,0,0"/>
+    <vehicle id="SN_1009" type="car" route="r_0" depart="1009" color="0,0,1"/>
+    <vehicle id="EW_1011" type="car" route="r_5" depart="1011" color= "1,0,0"/>
+    <vehicle id="NS_1012" type="car" route="r_11" depart="1012" color="0,1,0"/>
+    <vehicle id="WE_1014" type="truck" route="r_6" depart="1014" />
+    <vehicle id="NS_1016" type="truck" route="r_9" depart="1016" color="0,1,0"/>
+    <vehicle id="WE_1022" type="car" route="r_8" depart="1022" />
+    <vehicle id="EW_1023" type="car" route="r_4" depart="1023" color= "1,0,0"/>
+    <vehicle id="WE_1024" type="car" route="r_8" depart="1024" />
+    <vehicle id="EW_1025" type="truck" route="r_4" depart="1025" color= "1,0,0"/>
+    <vehicle id="SN_1025" type="car" route="r_0" depart="1025" color="0,0,1"/>
+    <vehicle id="WE_1028" type="car" route="r_8" depart="1028" />
+    <vehicle id="EW_1028" type="car" route="r_5" depart="1028" color= "1,0,0"/>
+    <vehicle id="NS_1028" type="car" route="r_9" depart="1028" color="0,1,0"/>
+    <vehicle id="SN_1030" type="car" route="r_0" depart="1030" color="0,0,1"/>
+    <vehicle id="NS_1032" type="car" route="r_10" depart="1032" color="0,1,0"/>
+    <vehicle id="EW_1035" type="car" route="r_3" depart="1035" color= "1,0,0"/>
+    <vehicle id="WE_1036" type="truck" route="r_7" depart="1036" />
+    <vehicle id="NS_1037" type="car" route="r_9" depart="1037" color="0,1,0"/>
+    <vehicle id="WE_1040" type="car" route="r_6" depart="1040" />
+    <vehicle id="SN_1043" type="car" route="r_0" depart="1043" color="0,0,1"/>
+    <vehicle id="SN_1044" type="car" route="r_1" depart="1044" color="0,0,1"/>
+    <vehicle id="SN_1048" type="car" route="r_1" depart="1048" color="0,0,1"/>
+    <vehicle id="SN_1055" type="car" route="r_1" depart="1055" color="0,0,1"/>
+    <vehicle id="SN_1056" type="car" route="r_0" depart="1056" color="0,0,1"/>
+    <vehicle id="WE_1057" type="car" route="r_7" depart="1057" />
+    <vehicle id="SN_1060" type="car" route="r_2" depart="1060" color="0,0,1"/>
+    <vehicle id="EW_1064" type="car" route="r_3" depart="1064" color= "1,0,0"/>
+    <vehicle id="SN_1068" type="truck" route="r_0" depart="1068" color="0,0,1"/>
+    <vehicle id="EW_1076" type="car" route="r_3" depart="1076" color= "1,0,0"/>
+    <vehicle id="EW_1077" type="car" route="r_4" depart="1077" color= "1,0,0"/>
+    <vehicle id="EW_1079" type="car" route="r_3" depart="1079" color= "1,0,0"/>
+    <vehicle id="NS_1084" type="car" route="r_11" depart="1084" color="0,1,0"/>
+    <vehicle id="SN_1085" type="car" route="r_2" depart="1085" color="0,0,1"/>
+    <vehicle id="WE_1086" type="car" route="r_6" depart="1086" />
+    <vehicle id="NS_1086" type="car" route="r_9" depart="1086" color="0,1,0"/>
+    <vehicle id="WE_1087" type="car" route="r_8" depart="1087" />
+    <vehicle id="EW_1089" type="car" route="r_4" depart="1089" color= "1,0,0"/>
+    <vehicle id="NS_1089" type="car" route="r_11" depart="1089" color="0,1,0"/>
+    <vehicle id="SN_1090" type="car" route="r_2" depart="1090" color="0,0,1"/>
+    <vehicle id="WE_1093" type="car" route="r_6" depart="1093" />
+    <vehicle id="SN_1093" type="car" route="r_2" depart="1093" color="0,0,1"/>
+    <vehicle id="EW_1094" type="car" route="r_5" depart="1094" color= "1,0,0"/>
+    <vehicle id="EW_1097" type="car" route="r_5" depart="1097" color= "1,0,0"/>
+    <vehicle id="WE_1103" type="car" route="r_8" depart="1103" />
+    <vehicle id="NS_1103" type="car" route="r_9" depart="1103" color="0,1,0"/>
+    <vehicle id="NS_1110" type="car" route="r_10" depart="1110" color="0,1,0"/>
+    <vehicle id="EW_1112" type="car" route="r_3" depart="1112" color= "1,0,0"/>
+    <vehicle id="WE_1113" type="car" route="r_6" depart="1113" />
+    <vehicle id="SN_1114" type="car" route="r_0" depart="1114" color="0,0,1"/>
+    <vehicle id="WE_1116" type="truck" route="r_7" depart="1116" />
+    <vehicle id="NS_1116" type="car" route="r_11" depart="1116" color="0,1,0"/>
+    <vehicle id="SN_1118" type="car" route="r_2" depart="1118" color="0,0,1"/>
+    <vehicle id="SN_1120" type="car" route="r_1" depart="1120" color="0,0,1"/>
+    <vehicle id="SN_1121" type="car" route="r_2" depart="1121" color="0,0,1"/>
+    <vehicle id="EW_1122" type="car" route="r_5" depart="1122" color= "1,0,0"/>
+    <vehicle id="SN_1124" type="car" route="r_1" depart="1124" color="0,0,1"/>
+    <vehicle id="EW_1125" type="car" route="r_4" depart="1125" color= "1,0,0"/>
+    <vehicle id="NS_1128" type="car" route="r_10" depart="1128" color="0,1,0"/>
+    <vehicle id="EW_1134" type="car" route="r_4" depart="1134" color= "1,0,0"/>
+    <vehicle id="NS_1138" type="car" route="r_11" depart="1138" color="0,1,0"/>
+    <vehicle id="EW_1145" type="car" route="r_4" depart="1145" color= "1,0,0"/>
+    <vehicle id="WE_1148" type="car" route="r_8" depart="1148" />
+    <vehicle id="EW_1152" type="car" route="r_4" depart="1152" color= "1,0,0"/>
+    <vehicle id="WE_1167" type="car" route="r_7" depart="1167" />
+    <vehicle id="NS_1173" type="car" route="r_10" depart="1173" color="0,1,0"/>
+    <vehicle id="WE_1186" type="car" route="r_6" depart="1186" />
+    <vehicle id="WE_1187" type="car" route="r_7" depart="1187" />
+    <vehicle id="WE_1197" type="car" route="r_6" depart="1197" />
+    <vehicle id="SN_1199" type="car" route="r_1" depart="1199" color="0,0,1"/>
+    <vehicle id="EW_1201" type="car" route="r_5" depart="1201" color= "1,0,0"/>
+    <vehicle id="WE_1203" type="car" route="r_8" depart="1203" />
+    <vehicle id="SN_1208" type="car" route="r_2" depart="1208" color="0,0,1"/>
+    <vehicle id="WE_1209" type="car" route="r_6" depart="1209" />
+    <vehicle id="SN_1209" type="car" route="r_0" depart="1209" color="0,0,1"/>
+    <vehicle id="EW_1210" type="car" route="r_3" depart="1210" color= "1,0,0"/>
+    <vehicle id="NS_1212" type="car" route="r_10" depart="1212" color="0,1,0"/>
+    <vehicle id="NS_1218" type="car" route="r_11" depart="1218" color="0,1,0"/>
+    <vehicle id="SN_1232" type="car" route="r_1" depart="1232" color="0,0,1"/>
+    <vehicle id="NS_1234" type="car" route="r_10" depart="1234" color="0,1,0"/>
+    <vehicle id="WE_1241" type="car" route="r_6" depart="1241" />
+    <vehicle id="NS_1243" type="truck" route="r_9" depart="1243" color="0,1,0"/>
+    <vehicle id="WE_1244" type="car" route="r_8" depart="1244" />
+    <vehicle id="NS_1247" type="car" route="r_10" depart="1247" color="0,1,0"/>
+    <vehicle id="SN_1249" type="car" route="r_1" depart="1249" color="0,0,1"/>
+    <vehicle id="NS_1251" type="truck" route="r_11" depart="1251" color="0,1,0"/>
+    <vehicle id="EW_1258" type="car" route="r_5" depart="1258" color= "1,0,0"/>
+    <vehicle id="SN_1260" type="car" route="r_2" depart="1260" color="0,0,1"/>
+    <vehicle id="NS_1264" type="car" route="r_10" depart="1264" color="0,1,0"/>
+    <vehicle id="NS_1266" type="car" route="r_10" depart="1266" color="0,1,0"/>
+    <vehicle id="NS_1277" type="car" route="r_10" depart="1277" color="0,1,0"/>
+    <vehicle id="NS_1279" type="car" route="r_10" depart="1279" color="0,1,0"/>
+    <vehicle id="SN_1279" type="car" route="r_0" depart="1279" color="0,0,1"/>
+    <vehicle id="SN_1281" type="car" route="r_2" depart="1281" color="0,0,1"/>
+    <vehicle id="WE_1282" type="car" route="r_6" depart="1282" />
+    <vehicle id="WE_1284" type="truck" route="r_8" depart="1284" />
+    <vehicle id="WE_1285" type="truck" route="r_6" depart="1285" />
+    <vehicle id="NS_1286" type="car" route="r_11" depart="1286" color="0,1,0"/>
+    <vehicle id="NS_1287" type="car" route="r_10" depart="1287" color="0,1,0"/>
+    <vehicle id="SN_1289" type="car" route="r_2" depart="1289" color="0,0,1"/>
+    <vehicle id="EW_1291" type="car" route="r_4" depart="1291" color= "1,0,0"/>
+    <vehicle id="SN_1294" type="car" route="r_1" depart="1294" color="0,0,1"/>
+    <vehicle id="SN_1295" type="car" route="r_2" depart="1295" color="0,0,1"/>
+    <vehicle id="WE_1296" type="car" route="r_7" depart="1296" />
+    <vehicle id="NS_1303" type="car" route="r_10" depart="1303" color="0,1,0"/>
+    <vehicle id="NS_1304" type="car" route="r_11" depart="1304" color="0,1,0"/>
+    <vehicle id="SN_1304" type="car" route="r_2" depart="1304" color="0,0,1"/>
+    <vehicle id="WE_1305" type="car" route="r_7" depart="1305" />
+    <vehicle id="NS_1305" type="car" route="r_10" depart="1305" color="0,1,0"/>
+    <vehicle id="EW_1310" type="car" route="r_5" depart="1310" color= "1,0,0"/>
+    <vehicle id="EW_1312" type="car" route="r_3" depart="1312" color= "1,0,0"/>
+    <vehicle id="SN_1312" type="car" route="r_0" depart="1312" color="0,0,1"/>
+    <vehicle id="NS_1328" type="car" route="r_9" depart="1328" color="0,1,0"/>
+    <vehicle id="EW_1329" type="car" route="r_5" depart="1329" color= "1,0,0"/>
+    <vehicle id="EW_1332" type="car" route="r_4" depart="1332" color= "1,0,0"/>
+    <vehicle id="WE_1333" type="car" route="r_7" depart="1333" />
+    <vehicle id="WE_1335" type="truck" route="r_8" depart="1335" />
+    <vehicle id="NS_1337" type="truck" route="r_11" depart="1337" color="0,1,0"/>
+    <vehicle id="SN_1337" type="car" route="r_2" depart="1337" color="0,0,1"/>
+    <vehicle id="SN_1338" type="car" route="r_1" depart="1338" color="0,0,1"/>
+    <vehicle id="SN_1341" type="car" route="r_0" depart="1341" color="0,0,1"/>
+    <vehicle id="WE_1343" type="car" route="r_6" depart="1343" />
+    <vehicle id="WE_1346" type="car" route="r_7" depart="1346" />
+    <vehicle id="NS_1347" type="car" route="r_10" depart="1347" color="0,1,0"/>
+    <vehicle id="WE_1351" type="truck" route="r_7" depart="1351" />
+    <vehicle id="WE_1353" type="car" route="r_8" depart="1353" />
+    <vehicle id="EW_1353" type="car" route="r_5" depart="1353" color= "1,0,0"/>
+    <vehicle id="SN_1355" type="car" route="r_1" depart="1355" color="0,0,1"/>
+    <vehicle id="EW_1360" type="car" route="r_4" depart="1360" color= "1,0,0"/>
+    <vehicle id="SN_1363" type="car" route="r_2" depart="1363" color="0,0,1"/>
+    <vehicle id="NS_1364" type="car" route="r_11" depart="1364" color="0,1,0"/>
+    <vehicle id="EW_1365" type="car" route="r_3" depart="1365" color= "1,0,0"/>
+    <vehicle id="SN_1366" type="car" route="r_0" depart="1366" color="0,0,1"/>
+    <vehicle id="EW_1373" type="car" route="r_4" depart="1373" color= "1,0,0"/>
+    <vehicle id="NS_1376" type="car" route="r_9" depart="1376" color="0,1,0"/>
+    <vehicle id="WE_1377" type="car" route="r_6" depart="1377" />
+    <vehicle id="EW_1380" type="car" route="r_3" depart="1380" color= "1,0,0"/>
+    <vehicle id="WE_1384" type="car" route="r_7" depart="1384" />
+    <vehicle id="SN_1388" type="car" route="r_0" depart="1388" color="0,0,1"/>
+    <vehicle id="NS_1391" type="truck" route="r_9" depart="1391" color="0,1,0"/>
+    <vehicle id="SN_1391" type="car" route="r_1" depart="1391" color="0,0,1"/>
+    <vehicle id="NS_1392" type="car" route="r_10" depart="1392" color="0,1,0"/>
+    <vehicle id="WE_1396" type="car" route="r_8" depart="1396" />
+    <vehicle id="NS_1397" type="car" route="r_9" depart="1397" color="0,1,0"/>
+    <vehicle id="SN_1401" type="car" route="r_1" depart="1401" color="0,0,1"/>
+    <vehicle id="EW_1402" type="car" route="r_5" depart="1402" color= "1,0,0"/>
+    <vehicle id="WE_1409" type="car" route="r_8" depart="1409" />
+    <vehicle id="NS_1410" type="car" route="r_11" depart="1410" color="0,1,0"/>
+    <vehicle id="NS_1414" type="car" route="r_11" depart="1414" color="0,1,0"/>
+    <vehicle id="EW_1415" type="car" route="r_4" depart="1415" color= "1,0,0"/>
+    <vehicle id="EW_1417" type="car" route="r_4" depart="1417" color= "1,0,0"/>
+    <vehicle id="NS_1418" type="car" route="r_9" depart="1418" color="0,1,0"/>
+    <vehicle id="WE_1425" type="car" route="r_6" depart="1425" />
+    <vehicle id="NS_1425" type="car" route="r_11" depart="1425" color="0,1,0"/>
+    <vehicle id="WE_1426" type="car" route="r_6" depart="1426" />
+    <vehicle id="NS_1428" type="car" route="r_10" depart="1428" color="0,1,0"/>
+    <vehicle id="NS_1433" type="car" route="r_10" depart="1433" color="0,1,0"/>
+    <vehicle id="WE_1435" type="car" route="r_7" depart="1435" />
+    <vehicle id="EW_1439" type="car" route="r_4" depart="1439" color= "1,0,0"/>
+    <vehicle id="WE_1442" type="car" route="r_6" depart="1442" />
+    <vehicle id="EW_1442" type="car" route="r_4" depart="1442" color= "1,0,0"/>
+    <vehicle id="EW_1443" type="car" route="r_3" depart="1443" color= "1,0,0"/>
+    <vehicle id="SN_1443" type="car" route="r_0" depart="1443" color="0,0,1"/>
+    <vehicle id="WE_1449" type="car" route="r_6" depart="1449" />
+    <vehicle id="WE_1452" type="truck" route="r_7" depart="1452" />
+    <vehicle id="SN_1452" type="car" route="r_0" depart="1452" color="0,0,1"/>
+    <vehicle id="WE_1453" type="car" route="r_6" depart="1453" />
+    <vehicle id="WE_1456" type="car" route="r_8" depart="1456" />
+    <vehicle id="NS_1456" type="car" route="r_9" depart="1456" color="0,1,0"/>
+    <vehicle id="EW_1461" type="car" route="r_5" depart="1461" color= "1,0,0"/>
+    <vehicle id="WE_1462" type="car" route="r_6" depart="1462" />
+    <vehicle id="SN_1462" type="car" route="r_0" depart="1462" color="0,0,1"/>
+    <vehicle id="WE_1464" type="car" route="r_7" depart="1464" />
+    <vehicle id="NS_1464" type="truck" route="r_9" depart="1464" color="0,1,0"/>
+    <vehicle id="EW_1469" type="car" route="r_4" depart="1469" color= "1,0,0"/>
+    <vehicle id="NS_1470" type="car" route="r_10" depart="1470" color="0,1,0"/>
+    <vehicle id="EW_1473" type="car" route="r_3" depart="1473" color= "1,0,0"/>
+    <vehicle id="EW_1474" type="car" route="r_4" depart="1474" color= "1,0,0"/>
+    <vehicle id="EW_1475" type="car" route="r_4" depart="1475" color= "1,0,0"/>
+    <vehicle id="NS_1476" type="car" route="r_11" depart="1476" color="0,1,0"/>
+    <vehicle id="EW_1484" type="truck" route="r_3" depart="1484" color= "1,0,0"/>
+    <vehicle id="EW_1486" type="car" route="r_4" depart="1486" color= "1,0,0"/>
+    <vehicle id="EW_1488" type="car" route="r_3" depart="1488" color= "1,0,0"/>
+    <vehicle id="WE_1489" type="car" route="r_8" depart="1489" />
+    <vehicle id="SN_1492" type="car" route="r_1" depart="1492" color="0,0,1"/>
+    <vehicle id="EW_1495" type="car" route="r_5" depart="1495" color= "1,0,0"/>
+    <vehicle id="EW_1496" type="car" route="r_4" depart="1496" color= "1,0,0"/>
+    <vehicle id="SN_1501" type="truck" route="r_2" depart="1501" color="0,0,1"/>
+    <vehicle id="WE_1502" type="car" route="r_7" depart="1502" />
+    <vehicle id="WE_1503" type="truck" route="r_7" depart="1503" />
+    <vehicle id="WE_1504" type="car" route="r_6" depart="1504" />
+    <vehicle id="WE_1505" type="car" route="r_6" depart="1505" />
+    <vehicle id="SN_1507" type="car" route="r_1" depart="1507" color="0,0,1"/>
+    <vehicle id="NS_1511" type="car" route="r_9" depart="1511" color="0,1,0"/>
+    <vehicle id="EW_1515" type="car" route="r_5" depart="1515" color= "1,0,0"/>
+    <vehicle id="WE_1517" type="car" route="r_8" depart="1517" />
+    <vehicle id="WE_1518" type="car" route="r_8" depart="1518" />
+    <vehicle id="NS_1523" type="car" route="r_9" depart="1523" color="0,1,0"/>
+    <vehicle id="WE_1525" type="car" route="r_6" depart="1525" />
+    <vehicle id="EW_1526" type="truck" route="r_5" depart="1526" color= "1,0,0"/>
+    <vehicle id="NS_1539" type="truck" route="r_11" depart="1539" color="0,1,0"/>
+    <vehicle id="WE_1543" type="car" route="r_6" depart="1543" />
+    <vehicle id="SN_1546" type="car" route="r_0" depart="1546" color="0,0,1"/>
+    <vehicle id="SN_1549" type="car" route="r_1" depart="1549" color="0,0,1"/>
+    <vehicle id="WE_1550" type="car" route="r_7" depart="1550" />
+    <vehicle id="NS_1564" type="car" route="r_9" depart="1564" color="0,1,0"/>
+    <vehicle id="EW_1566" type="car" route="r_5" depart="1566" color= "1,0,0"/>
+    <vehicle id="NS_1567" type="car" route="r_10" depart="1567" color="0,1,0"/>
+    <vehicle id="WE_1568" type="truck" route="r_6" depart="1568" />
+    <vehicle id="WE_1575" type="car" route="r_6" depart="1575" />
+    <vehicle id="EW_1575" type="car" route="r_3" depart="1575" color= "1,0,0"/>
+    <vehicle id="EW_1580" type="car" route="r_4" depart="1580" color= "1,0,0"/>
+    <vehicle id="NS_1581" type="car" route="r_11" depart="1581" color="0,1,0"/>
+    <vehicle id="SN_1582" type="car" route="r_1" depart="1582" color="0,0,1"/>
+    <vehicle id="EW_1584" type="car" route="r_3" depart="1584" color= "1,0,0"/>
+    <vehicle id="SN_1585" type="car" route="r_0" depart="1585" color="0,0,1"/>
+    <vehicle id="WE_1588" type="car" route="r_6" depart="1588" />
+    <vehicle id="SN_1589" type="car" route="r_0" depart="1589" color="0,0,1"/>
+    <vehicle id="NS_1590" type="car" route="r_11" depart="1590" color="0,1,0"/>
+    <vehicle id="WE_1591" type="car" route="r_8" depart="1591" />
+    <vehicle id="NS_1601" type="car" route="r_10" depart="1601" color="0,1,0"/>
+    <vehicle id="SN_1601" type="truck" route="r_2" depart="1601" color="0,0,1"/>
+    <vehicle id="NS_1613" type="car" route="r_10" depart="1613" color="0,1,0"/>
+    <vehicle id="SN_1614" type="car" route="r_2" depart="1614" color="0,0,1"/>
+    <vehicle id="SN_1615" type="car" route="r_1" depart="1615" color="0,0,1"/>
+    <vehicle id="EW_1618" type="car" route="r_3" depart="1618" color= "1,0,0"/>
+    <vehicle id="EW_1628" type="car" route="r_3" depart="1628" color= "1,0,0"/>
+    <vehicle id="WE_1634" type="car" route="r_7" depart="1634" />
+    <vehicle id="EW_1637" type="car" route="r_5" depart="1637" color= "1,0,0"/>
+    <vehicle id="SN_1637" type="car" route="r_0" depart="1637" color="0,0,1"/>
+    <vehicle id="WE_1639" type="car" route="r_6" depart="1639" />
+    <vehicle id="WE_1640" type="car" route="r_8" depart="1640" />
+    <vehicle id="SN_1641" type="car" route="r_0" depart="1641" color="0,0,1"/>
+    <vehicle id="EW_1643" type="car" route="r_3" depart="1643" color= "1,0,0"/>
+    <vehicle id="EW_1644" type="car" route="r_5" depart="1644" color= "1,0,0"/>
+    <vehicle id="WE_1646" type="car" route="r_8" depart="1646" />
+    <vehicle id="SN_1648" type="car" route="r_0" depart="1648" color="0,0,1"/>
+    <vehicle id="EW_1655" type="car" route="r_4" depart="1655" color= "1,0,0"/>
+    <vehicle id="WE_1662" type="truck" route="r_6" depart="1662" />
+    <vehicle id="WE_1664" type="car" route="r_6" depart="1664" />
+    <vehicle id="EW_1665" type="car" route="r_3" depart="1665" color= "1,0,0"/>
+    <vehicle id="NS_1668" type="car" route="r_9" depart="1668" color="0,1,0"/>
+    <vehicle id="SN_1668" type="car" route="r_2" depart="1668" color="0,0,1"/>
+    <vehicle id="WE_1671" type="car" route="r_8" depart="1671" />
+    <vehicle id="SN_1672" type="car" route="r_0" depart="1672" color="0,0,1"/>
+    <vehicle id="NS_1676" type="car" route="r_10" depart="1676" color="0,1,0"/>
+    <vehicle id="NS_1679" type="truck" route="r_11" depart="1679" color="0,1,0"/>
+    <vehicle id="EW_1686" type="car" route="r_3" depart="1686" color= "1,0,0"/>
+    <vehicle id="EW_1691" type="car" route="r_5" depart="1691" color= "1,0,0"/>
+    <vehicle id="WE_1692" type="car" route="r_8" depart="1692" />
+    <vehicle id="SN_1692" type="car" route="r_2" depart="1692" color="0,0,1"/>
+    <vehicle id="NS_1696" type="car" route="r_11" depart="1696" color="0,1,0"/>
+    <vehicle id="WE_1697" type="car" route="r_7" depart="1697" />
+    <vehicle id="NS_1699" type="car" route="r_11" depart="1699" color="0,1,0"/>
+    <vehicle id="EW_1700" type="car" route="r_3" depart="1700" color= "1,0,0"/>
+    <vehicle id="SN_1704" type="car" route="r_0" depart="1704" color="0,0,1"/>
+    <vehicle id="EW_1705" type="car" route="r_5" depart="1705" color= "1,0,0"/>
+    <vehicle id="EW_1714" type="car" route="r_3" depart="1714" color= "1,0,0"/>
+    <vehicle id="NS_1721" type="car" route="r_10" depart="1721" color="0,1,0"/>
+    <vehicle id="NS_1730" type="car" route="r_11" depart="1730" color="0,1,0"/>
+    <vehicle id="WE_1741" type="car" route="r_8" depart="1741" />
+    <vehicle id="WE_1742" type="car" route="r_6" depart="1742" />
+    <vehicle id="EW_1742" type="truck" route="r_3" depart="1742" color= "1,0,0"/>
+    <vehicle id="NS_1742" type="car" route="r_9" depart="1742" color="0,1,0"/>
+    <vehicle id="WE_1745" type="car" route="r_6" depart="1745" />
+    <vehicle id="EW_1746" type="truck" route="r_5" depart="1746" color= "1,0,0"/>
+    <vehicle id="WE_1747" type="truck" route="r_6" depart="1747" />
+    <vehicle id="SN_1748" type="car" route="r_2" depart="1748" color="0,0,1"/>
+    <vehicle id="NS_1751" type="car" route="r_11" depart="1751" color="0,1,0"/>
+    <vehicle id="WE_1752" type="car" route="r_7" depart="1752" />
+    <vehicle id="NS_1753" type="car" route="r_10" depart="1753" color="0,1,0"/>
+    <vehicle id="SN_1759" type="car" route="r_0" depart="1759" color="0,0,1"/>
+    <vehicle id="NS_1763" type="car" route="r_10" depart="1763" color="0,1,0"/>
+    <vehicle id="SN_1766" type="car" route="r_0" depart="1766" color="0,0,1"/>
+    <vehicle id="EW_1768" type="car" route="r_4" depart="1768" color= "1,0,0"/>
+    <vehicle id="SN_1768" type="car" route="r_2" depart="1768" color="0,0,1"/>
+    <vehicle id="EW_1777" type="truck" route="r_4" depart="1777" color= "1,0,0"/>
+    <vehicle id="NS_1777" type="car" route="r_10" depart="1777" color="0,1,0"/>
+    <vehicle id="NS_1781" type="car" route="r_11" depart="1781" color="0,1,0"/>
+    <vehicle id="WE_1783" type="car" route="r_8" depart="1783" />
+    <vehicle id="NS_1785" type="car" route="r_11" depart="1785" color="0,1,0"/>
+    <vehicle id="EW_1787" type="car" route="r_3" depart="1787" color= "1,0,0"/>
+    <vehicle id="SN_1790" type="car" route="r_2" depart="1790" color="0,0,1"/>
+    <vehicle id="EW_1793" type="car" route="r_4" depart="1793" color= "1,0,0"/>
+    <vehicle id="WE_1795" type="car" route="r_6" depart="1795" />
+    <vehicle id="SN_1796" type="car" route="r_0" depart="1796" color="0,0,1"/>
+    <vehicle id="EW_1797" type="car" route="r_3" depart="1797" color= "1,0,0"/>
+    <vehicle id="WE_1806" type="car" route="r_8" depart="1806" />
+    <vehicle id="SN_1807" type="car" route="r_1" depart="1807" color="0,0,1"/>
+    <vehicle id="EW_1810" type="car" route="r_5" depart="1810" color= "1,0,0"/>
+    <vehicle id="EW_1811" type="car" route="r_4" depart="1811" color= "1,0,0"/>
+    <vehicle id="WE_1815" type="car" route="r_8" depart="1815" />
+    <vehicle id="WE_1816" type="car" route="r_7" depart="1816" />
+    <vehicle id="NS_1816" type="car" route="r_11" depart="1816" color="0,1,0"/>
+    <vehicle id="SN_1825" type="car" route="r_2" depart="1825" color="0,0,1"/>
+    <vehicle id="EW_1830" type="car" route="r_3" depart="1830" color= "1,0,0"/>
+    <vehicle id="SN_1832" type="car" route="r_2" depart="1832" color="0,0,1"/>
+    <vehicle id="EW_1834" type="truck" route="r_4" depart="1834" color= "1,0,0"/>
+    <vehicle id="EW_1837" type="car" route="r_5" depart="1837" color= "1,0,0"/>
+    <vehicle id="NS_1837" type="truck" route="r_10" depart="1837" color="0,1,0"/>
+    <vehicle id="SN_1840" type="car" route="r_1" depart="1840" color="0,0,1"/>
+    <vehicle id="WE_1841" type="car" route="r_6" depart="1841" />
+    <vehicle id="EW_1844" type="car" route="r_3" depart="1844" color= "1,0,0"/>
+    <vehicle id="WE_1846" type="car" route="r_6" depart="1846" />
+    <vehicle id="NS_1851" type="car" route="r_11" depart="1851" color="0,1,0"/>
+    <vehicle id="SN_1851" type="car" route="r_2" depart="1851" color="0,0,1"/>
+    <vehicle id="WE_1852" type="car" route="r_6" depart="1852" />
+    <vehicle id="SN_1853" type="car" route="r_0" depart="1853" color="0,0,1"/>
+    <vehicle id="EW_1862" type="car" route="r_5" depart="1862" color= "1,0,0"/>
+    <vehicle id="EW_1865" type="car" route="r_4" depart="1865" color= "1,0,0"/>
+    <vehicle id="WE_1867" type="car" route="r_6" depart="1867" />
+    <vehicle id="EW_1869" type="car" route="r_4" depart="1869" color= "1,0,0"/>
+    <vehicle id="NS_1869" type="car" route="r_9" depart="1869" color="0,1,0"/>
+    <vehicle id="NS_1871" type="car" route="r_11" depart="1871" color="0,1,0"/>
+    <vehicle id="NS_1872" type="car" route="r_10" depart="1872" color="0,1,0"/>
+    <vehicle id="NS_1874" type="car" route="r_10" depart="1874" color="0,1,0"/>
+    <vehicle id="SN_1884" type="truck" route="r_0" depart="1884" color="0,0,1"/>
+    <vehicle id="NS_1886" type="car" route="r_10" depart="1886" color="0,1,0"/>
+    <vehicle id="NS_1887" type="car" route="r_9" depart="1887" color="0,1,0"/>
+    <vehicle id="EW_1889" type="car" route="r_3" depart="1889" color= "1,0,0"/>
+    <vehicle id="WE_1893" type="car" route="r_8" depart="1893" />
+    <vehicle id="SN_1900" type="car" route="r_1" depart="1900" color="0,0,1"/>
+    <vehicle id="SN_1901" type="car" route="r_2" depart="1901" color="0,0,1"/>
+    <vehicle id="SN_1902" type="car" route="r_0" depart="1902" color="0,0,1"/>
+    <vehicle id="SN_1904" type="car" route="r_1" depart="1904" color="0,0,1"/>
+    <vehicle id="WE_1906" type="car" route="r_7" depart="1906" />
+    <vehicle id="EW_1906" type="car" route="r_5" depart="1906" color= "1,0,0"/>
+    <vehicle id="NS_1908" type="car" route="r_11" depart="1908" color="0,1,0"/>
+    <vehicle id="EW_1911" type="car" route="r_5" depart="1911" color= "1,0,0"/>
+    <vehicle id="EW_1912" type="car" route="r_5" depart="1912" color= "1,0,0"/>
+    <vehicle id="WE_1913" type="car" route="r_6" depart="1913" />
+    <vehicle id="NS_1913" type="truck" route="r_11" depart="1913" color="0,1,0"/>
+    <vehicle id="WE_1914" type="truck" route="r_6" depart="1914" />
+    <vehicle id="WE_1916" type="car" route="r_8" depart="1916" />
+    <vehicle id="EW_1916" type="car" route="r_3" depart="1916" color= "1,0,0"/>
+    <vehicle id="EW_1919" type="car" route="r_3" depart="1919" color= "1,0,0"/>
+    <vehicle id="EW_1926" type="car" route="r_5" depart="1926" color= "1,0,0"/>
+    <vehicle id="EW_1927" type="car" route="r_4" depart="1927" color= "1,0,0"/>
+    <vehicle id="NS_1932" type="car" route="r_9" depart="1932" color="0,1,0"/>
+    <vehicle id="EW_1935" type="car" route="r_5" depart="1935" color= "1,0,0"/>
+    <vehicle id="WE_1936" type="car" route="r_7" depart="1936" />
+    <vehicle id="SN_1936" type="car" route="r_0" depart="1936" color="0,0,1"/>
+    <vehicle id="NS_1937" type="car" route="r_10" depart="1937" color="0,1,0"/>
+    <vehicle id="NS_1943" type="car" route="r_11" depart="1943" color="0,1,0"/>
+    <vehicle id="WE_1944" type="car" route="r_7" depart="1944" />
+    <vehicle id="NS_1946" type="car" route="r_11" depart="1946" color="0,1,0"/>
+    <vehicle id="WE_1947" type="car" route="r_8" depart="1947" />
+    <vehicle id="EW_1949" type="car" route="r_5" depart="1949" color= "1,0,0"/>
+    <vehicle id="NS_1953" type="car" route="r_11" depart="1953" color="0,1,0"/>
+    <vehicle id="WE_1958" type="car" route="r_7" depart="1958" />
+    <vehicle id="NS_1962" type="car" route="r_11" depart="1962" color="0,1,0"/>
+    <vehicle id="WE_1964" type="car" route="r_7" depart="1964" />
+    <vehicle id="SN_1976" type="car" route="r_1" depart="1976" color="0,0,1"/>
+    <vehicle id="WE_1978" type="car" route="r_8" depart="1978" />
+    <vehicle id="WE_1982" type="car" route="r_6" depart="1982" />
+    <vehicle id="SN_1983" type="car" route="r_0" depart="1983" color="0,0,1"/>
+    <vehicle id="SN_1984" type="car" route="r_1" depart="1984" color="0,0,1"/>
+    <vehicle id="EW_1987" type="car" route="r_3" depart="1987" color= "1,0,0"/>
+    <vehicle id="EW_1992" type="car" route="r_3" depart="1992" color= "1,0,0"/>
+    <vehicle id="NS_1994" type="car" route="r_9" depart="1994" color="0,1,0"/>
+    <vehicle id="WE_1995" type="car" route="r_8" depart="1995" />
+    <vehicle id="NS_1995" type="truck" route="r_9" depart="1995" color="0,1,0"/>
+    <vehicle id="SN_1995" type="car" route="r_2" depart="1995" color="0,0,1"/>
+    <vehicle id="WE_1999" type="car" route="r_6" depart="1999" />
+    <vehicle id="NS_2001" type="car" route="r_9" depart="2001" color="0,1,0"/>
+    <vehicle id="WE_2003" type="car" route="r_6" depart="2003" />
+    <vehicle id="SN_2004" type="car" route="r_0" depart="2004" color="0,0,1"/>
+    <vehicle id="WE_2005" type="car" route="r_6" depart="2005" />
+    <vehicle id="WE_2008" type="car" route="r_8" depart="2008" />
+    <vehicle id="WE_2010" type="car" route="r_7" depart="2010" />
+    <vehicle id="EW_2014" type="car" route="r_5" depart="2014" color= "1,0,0"/>
+    <vehicle id="SN_2015" type="car" route="r_1" depart="2015" color="0,0,1"/>
+    <vehicle id="NS_2016" type="car" route="r_9" depart="2016" color="0,1,0"/>
+    <vehicle id="SN_2016" type="car" route="r_0" depart="2016" color="0,0,1"/>
+    <vehicle id="WE_2024" type="car" route="r_7" depart="2024" />
+    <vehicle id="EW_2024" type="car" route="r_3" depart="2024" color= "1,0,0"/>
+    <vehicle id="NS_2025" type="car" route="r_11" depart="2025" color="0,1,0"/>
+    <vehicle id="WE_2027" type="car" route="r_6" depart="2027" />
+    <vehicle id="NS_2030" type="car" route="r_9" depart="2030" color="0,1,0"/>
+    <vehicle id="SN_2031" type="car" route="r_0" depart="2031" color="0,0,1"/>
+    <vehicle id="EW_2041" type="car" route="r_4" depart="2041" color= "1,0,0"/>
+    <vehicle id="EW_2042" type="truck" route="r_4" depart="2042" color= "1,0,0"/>
+    <vehicle id="SN_2042" type="car" route="r_2" depart="2042" color="0,0,1"/>
+    <vehicle id="EW_2043" type="car" route="r_5" depart="2043" color= "1,0,0"/>
+    <vehicle id="NS_2045" type="car" route="r_10" depart="2045" color="0,1,0"/>
+    <vehicle id="NS_2054" type="car" route="r_11" depart="2054" color="0,1,0"/>
+    <vehicle id="SN_2054" type="car" route="r_1" depart="2054" color="0,0,1"/>
+    <vehicle id="SN_2055" type="car" route="r_0" depart="2055" color="0,0,1"/>
+    <vehicle id="EW_2057" type="car" route="r_3" depart="2057" color= "1,0,0"/>
+    <vehicle id="SN_2057" type="car" route="r_1" depart="2057" color="0,0,1"/>
+    <vehicle id="NS_2062" type="car" route="r_9" depart="2062" color="0,1,0"/>
+    <vehicle id="NS_2064" type="car" route="r_10" depart="2064" color="0,1,0"/>
+    <vehicle id="SN_2065" type="car" route="r_2" depart="2065" color="0,0,1"/>
+    <vehicle id="WE_2067" type="car" route="r_8" depart="2067" />
+    <vehicle id="NS_2071" type="truck" route="r_11" depart="2071" color="0,1,0"/>
+    <vehicle id="EW_2074" type="car" route="r_5" depart="2074" color= "1,0,0"/>
+    <vehicle id="NS_2074" type="car" route="r_11" depart="2074" color="0,1,0"/>
+    <vehicle id="NS_2078" type="car" route="r_10" depart="2078" color="0,1,0"/>
+    <vehicle id="WE_2083" type="truck" route="r_7" depart="2083" />
+    <vehicle id="NS_2084" type="car" route="r_11" depart="2084" color="0,1,0"/>
+    <vehicle id="WE_2085" type="car" route="r_8" depart="2085" />
+    <vehicle id="SN_2091" type="car" route="r_1" depart="2091" color="0,0,1"/>
+    <vehicle id="WE_2093" type="car" route="r_6" depart="2093" />
+    <vehicle id="NS_2093" type="car" route="r_10" depart="2093" color="0,1,0"/>
+    <vehicle id="SN_2093" type="car" route="r_2" depart="2093" color="0,0,1"/>
+    <vehicle id="NS_2098" type="car" route="r_10" depart="2098" color="0,1,0"/>
+    <vehicle id="EW_2100" type="car" route="r_3" depart="2100" color= "1,0,0"/>
+    <vehicle id="WE_2103" type="car" route="r_7" depart="2103" />
+    <vehicle id="NS_2104" type="car" route="r_9" depart="2104" color="0,1,0"/>
+    <vehicle id="SN_2104" type="car" route="r_0" depart="2104" color="0,0,1"/>
+    <vehicle id="NS_2105" type="car" route="r_10" depart="2105" color="0,1,0"/>
+    <vehicle id="SN_2105" type="car" route="r_2" depart="2105" color="0,0,1"/>
+    <vehicle id="WE_2110" type="car" route="r_6" depart="2110" />
+    <vehicle id="NS_2110" type="car" route="r_11" depart="2110" color="0,1,0"/>
+    <vehicle id="WE_2111" type="car" route="r_8" depart="2111" />
+    <vehicle id="NS_2113" type="car" route="r_9" depart="2113" color="0,1,0"/>
+    <vehicle id="NS_2116" type="car" route="r_9" depart="2116" color="0,1,0"/>
+    <vehicle id="SN_2117" type="car" route="r_2" depart="2117" color="0,0,1"/>
+    <vehicle id="NS_2125" type="car" route="r_10" depart="2125" color="0,1,0"/>
+    <vehicle id="NS_2127" type="car" route="r_10" depart="2127" color="0,1,0"/>
+    <vehicle id="SN_2127" type="car" route="r_2" depart="2127" color="0,0,1"/>
+    <vehicle id="SN_2128" type="car" route="r_1" depart="2128" color="0,0,1"/>
+    <vehicle id="WE_2130" type="car" route="r_8" depart="2130" />
+    <vehicle id="SN_2131" type="car" route="r_2" depart="2131" color="0,0,1"/>
+    <vehicle id="SN_2133" type="car" route="r_0" depart="2133" color="0,0,1"/>
+    <vehicle id="EW_2134" type="car" route="r_4" depart="2134" color= "1,0,0"/>
+    <vehicle id="EW_2135" type="car" route="r_4" depart="2135" color= "1,0,0"/>
+    <vehicle id="SN_2137" type="car" route="r_2" depart="2137" color="0,0,1"/>
+    <vehicle id="EW_2140" type="car" route="r_5" depart="2140" color= "1,0,0"/>
+    <vehicle id="NS_2140" type="car" route="r_11" depart="2140" color="0,1,0"/>
+    <vehicle id="NS_2142" type="car" route="r_10" depart="2142" color="0,1,0"/>
+    <vehicle id="EW_2145" type="car" route="r_3" depart="2145" color= "1,0,0"/>
+    <vehicle id="NS_2151" type="car" route="r_11" depart="2151" color="0,1,0"/>
+    <vehicle id="EW_2152" type="car" route="r_3" depart="2152" color= "1,0,0"/>
+    <vehicle id="EW_2153" type="car" route="r_5" depart="2153" color= "1,0,0"/>
+    <vehicle id="NS_2154" type="truck" route="r_9" depart="2154" color="0,1,0"/>
+    <vehicle id="SN_2154" type="car" route="r_1" depart="2154" color="0,0,1"/>
+    <vehicle id="WE_2155" type="car" route="r_6" depart="2155" />
+    <vehicle id="SN_2155" type="car" route="r_2" depart="2155" color="0,0,1"/>
+    <vehicle id="WE_2156" type="car" route="r_8" depart="2156" />
+    <vehicle id="WE_2159" type="car" route="r_7" depart="2159" />
+    <vehicle id="EW_2169" type="car" route="r_3" depart="2169" color= "1,0,0"/>
+    <vehicle id="WE_2171" type="car" route="r_7" depart="2171" />
+    <vehicle id="WE_2173" type="car" route="r_8" depart="2173" />
+    <vehicle id="NS_2175" type="car" route="r_10" depart="2175" color="0,1,0"/>
+    <vehicle id="NS_2177" type="truck" route="r_9" depart="2177" color="0,1,0"/>
+    <vehicle id="WE_2178" type="car" route="r_8" depart="2178" />
+    <vehicle id="WE_2179" type="car" route="r_8" depart="2179" />
+    <vehicle id="EW_2184" type="car" route="r_5" depart="2184" color= "1,0,0"/>
+    <vehicle id="EW_2186" type="car" route="r_5" depart="2186" color= "1,0,0"/>
+    <vehicle id="SN_2187" type="car" route="r_2" depart="2187" color="0,0,1"/>
+    <vehicle id="NS_2195" type="truck" route="r_9" depart="2195" color="0,1,0"/>
+    <vehicle id="WE_2198" type="truck" route="r_7" depart="2198" />
+    <vehicle id="WE_2201" type="car" route="r_8" depart="2201" />
+    <vehicle id="EW_2201" type="car" route="r_4" depart="2201" color= "1,0,0"/>
+    <vehicle id="NS_2205" type="car" route="r_10" depart="2205" color="0,1,0"/>
+    <vehicle id="EW_2211" type="car" route="r_3" depart="2211" color= "1,0,0"/>
+    <vehicle id="WE_2212" type="car" route="r_8" depart="2212" />
+    <vehicle id="EW_2212" type="car" route="r_5" depart="2212" color= "1,0,0"/>
+    <vehicle id="WE_2213" type="truck" route="r_8" depart="2213" />
+    <vehicle id="SN_2216" type="car" route="r_0" depart="2216" color="0,0,1"/>
+    <vehicle id="WE_2218" type="car" route="r_8" depart="2218" />
+    <vehicle id="NS_2218" type="car" route="r_9" depart="2218" color="0,1,0"/>
+    <vehicle id="NS_2221" type="car" route="r_9" depart="2221" color="0,1,0"/>
+    <vehicle id="WE_2226" type="car" route="r_7" depart="2226" />
+    <vehicle id="WE_2238" type="car" route="r_7" depart="2238" />
+    <vehicle id="SN_2240" type="car" route="r_2" depart="2240" color="0,0,1"/>
+    <vehicle id="NS_2243" type="car" route="r_10" depart="2243" color="0,1,0"/>
+    <vehicle id="NS_2248" type="car" route="r_11" depart="2248" color="0,1,0"/>
+    <vehicle id="SN_2249" type="car" route="r_0" depart="2249" color="0,0,1"/>
+    <vehicle id="SN_2250" type="car" route="r_0" depart="2250" color="0,0,1"/>
+    <vehicle id="NS_2253" type="car" route="r_11" depart="2253" color="0,1,0"/>
+    <vehicle id="SN_2257" type="car" route="r_1" depart="2257" color="0,0,1"/>
+    <vehicle id="NS_2259" type="car" route="r_9" depart="2259" color="0,1,0"/>
+    <vehicle id="WE_2262" type="car" route="r_7" depart="2262" />
+    <vehicle id="WE_2263" type="car" route="r_7" depart="2263" />
+    <vehicle id="WE_2269" type="car" route="r_6" depart="2269" />
+    <vehicle id="SN_2275" type="car" route="r_0" depart="2275" color="0,0,1"/>
+    <vehicle id="SN_2278" type="car" route="r_2" depart="2278" color="0,0,1"/>
+    <vehicle id="SN_2282" type="car" route="r_1" depart="2282" color="0,0,1"/>
+    <vehicle id="SN_2287" type="car" route="r_2" depart="2287" color="0,0,1"/>
+    <vehicle id="WE_2290" type="car" route="r_7" depart="2290" />
+    <vehicle id="SN_2290" type="car" route="r_2" depart="2290" color="0,0,1"/>
+    <vehicle id="NS_2292" type="car" route="r_11" depart="2292" color="0,1,0"/>
+    <vehicle id="SN_2293" type="car" route="r_2" depart="2293" color="0,0,1"/>
+    <vehicle id="EW_2302" type="car" route="r_3" depart="2302" color= "1,0,0"/>
+    <vehicle id="NS_2303" type="car" route="r_11" depart="2303" color="0,1,0"/>
+    <vehicle id="EW_2306" type="car" route="r_5" depart="2306" color= "1,0,0"/>
+    <vehicle id="NS_2306" type="car" route="r_10" depart="2306" color="0,1,0"/>
+    <vehicle id="SN_2308" type="car" route="r_0" depart="2308" color="0,0,1"/>
+    <vehicle id="SN_2317" type="car" route="r_2" depart="2317" color="0,0,1"/>
+    <vehicle id="NS_2323" type="truck" route="r_9" depart="2323" color="0,1,0"/>
+    <vehicle id="SN_2327" type="car" route="r_2" depart="2327" color="0,0,1"/>
+    <vehicle id="WE_2328" type="car" route="r_6" depart="2328" />
+    <vehicle id="NS_2328" type="car" route="r_9" depart="2328" color="0,1,0"/>
+    <vehicle id="SN_2328" type="car" route="r_0" depart="2328" color="0,0,1"/>
+    <vehicle id="NS_2332" type="car" route="r_10" depart="2332" color="0,1,0"/>
+    <vehicle id="WE_2335" type="car" route="r_7" depart="2335" />
+    <vehicle id="EW_2336" type="car" route="r_5" depart="2336" color= "1,0,0"/>
+    <vehicle id="NS_2336" type="truck" route="r_10" depart="2336" color="0,1,0"/>
+    <vehicle id="SN_2337" type="car" route="r_1" depart="2337" color="0,0,1"/>
+    <vehicle id="WE_2339" type="car" route="r_7" depart="2339" />
+    <vehicle id="NS_2340" type="car" route="r_9" depart="2340" color="0,1,0"/>
+    <vehicle id="EW_2344" type="car" route="r_4" depart="2344" color= "1,0,0"/>
+    <vehicle id="NS_2347" type="car" route="r_9" depart="2347" color="0,1,0"/>
+    <vehicle id="NS_2348" type="car" route="r_11" depart="2348" color="0,1,0"/>
+    <vehicle id="EW_2353" type="car" route="r_5" depart="2353" color= "1,0,0"/>
+    <vehicle id="NS_2353" type="car" route="r_11" depart="2353" color="0,1,0"/>
+    <vehicle id="NS_2354" type="car" route="r_10" depart="2354" color="0,1,0"/>
+    <vehicle id="NS_2355" type="car" route="r_11" depart="2355" color="0,1,0"/>
+    <vehicle id="NS_2357" type="car" route="r_11" depart="2357" color="0,1,0"/>
+    <vehicle id="EW_2359" type="car" route="r_5" depart="2359" color= "1,0,0"/>
+    <vehicle id="SN_2365" type="car" route="r_0" depart="2365" color="0,0,1"/>
+    <vehicle id="SN_2369" type="car" route="r_0" depart="2369" color="0,0,1"/>
+    <vehicle id="SN_2370" type="truck" route="r_0" depart="2370" color="0,0,1"/>
+    <vehicle id="NS_2371" type="car" route="r_10" depart="2371" color="0,1,0"/>
+    <vehicle id="NS_2372" type="car" route="r_10" depart="2372" color="0,1,0"/>
+    <vehicle id="NS_2375" type="car" route="r_11" depart="2375" color="0,1,0"/>
+    <vehicle id="NS_2379" type="car" route="r_10" depart="2379" color="0,1,0"/>
+    <vehicle id="SN_2387" type="car" route="r_2" depart="2387" color="0,0,1"/>
+    <vehicle id="EW_2389" type="car" route="r_4" depart="2389" color= "1,0,0"/>
+    <vehicle id="SN_2391" type="car" route="r_1" depart="2391" color="0,0,1"/>
+    <vehicle id="SN_2392" type="car" route="r_0" depart="2392" color="0,0,1"/>
+    <vehicle id="EW_2394" type="car" route="r_3" depart="2394" color= "1,0,0"/>
+    <vehicle id="WE_2398" type="car" route="r_8" depart="2398" />
+    <vehicle id="EW_2403" type="car" route="r_3" depart="2403" color= "1,0,0"/>
+    <vehicle id="WE_2411" type="car" route="r_8" depart="2411" />
+    <vehicle id="EW_2413" type="car" route="r_5" depart="2413" color= "1,0,0"/>
+    <vehicle id="NS_2416" type="car" route="r_9" depart="2416" color="0,1,0"/>
+    <vehicle id="SN_2422" type="car" route="r_1" depart="2422" color="0,0,1"/>
+    <vehicle id="NS_2427" type="car" route="r_10" depart="2427" color="0,1,0"/>
+    <vehicle id="SN_2429" type="car" route="r_2" depart="2429" color="0,0,1"/>
+    <vehicle id="SN_2431" type="car" route="r_1" depart="2431" color="0,0,1"/>
+    <vehicle id="WE_2437" type="truck" route="r_8" depart="2437" />
+    <vehicle id="NS_2440" type="car" route="r_11" depart="2440" color="0,1,0"/>
+    <vehicle id="WE_2441" type="car" route="r_6" depart="2441" />
+    <vehicle id="EW_2441" type="truck" route="r_3" depart="2441" color= "1,0,0"/>
+    <vehicle id="WE_2442" type="car" route="r_8" depart="2442" />
+    <vehicle id="EW_2443" type="truck" route="r_5" depart="2443" color= "1,0,0"/>
+    <vehicle id="NS_2450" type="car" route="r_11" depart="2450" color="0,1,0"/>
+    <vehicle id="WE_2452" type="car" route="r_8" depart="2452" />
+    <vehicle id="SN_2456" type="car" route="r_0" depart="2456" color="0,0,1"/>
+    <vehicle id="EW_2462" type="car" route="r_5" depart="2462" color= "1,0,0"/>
+    <vehicle id="EW_2464" type="car" route="r_3" depart="2464" color= "1,0,0"/>
+    <vehicle id="NS_2464" type="car" route="r_9" depart="2464" color="0,1,0"/>
+    <vehicle id="SN_2464" type="car" route="r_1" depart="2464" color="0,0,1"/>
+    <vehicle id="WE_2469" type="car" route="r_7" depart="2469" />
+    <vehicle id="SN_2470" type="car" route="r_1" depart="2470" color="0,0,1"/>
+    <vehicle id="EW_2473" type="car" route="r_5" depart="2473" color= "1,0,0"/>
+    <vehicle id="WE_2481" type="car" route="r_6" depart="2481" />
+    <vehicle id="NS_2486" type="car" route="r_9" depart="2486" color="0,1,0"/>
+    <vehicle id="EW_2490" type="car" route="r_4" depart="2490" color= "1,0,0"/>
+    <vehicle id="SN_2493" type="car" route="r_1" depart="2493" color="0,0,1"/>
+    <vehicle id="NS_2495" type="truck" route="r_9" depart="2495" color="0,1,0"/>
+    <vehicle id="NS_2498" type="car" route="r_11" depart="2498" color="0,1,0"/>
+    <vehicle id="SN_2500" type="truck" route="r_1" depart="2500" color="0,0,1"/>
+    <vehicle id="NS_2506" type="truck" route="r_11" depart="2506" color="0,1,0"/>
+    <vehicle id="EW_2507" type="truck" route="r_3" depart="2507" color= "1,0,0"/>
+    <vehicle id="EW_2510" type="car" route="r_4" depart="2510" color= "1,0,0"/>
+    <vehicle id="NS_2513" type="car" route="r_10" depart="2513" color="0,1,0"/>
+    <vehicle id="SN_2515" type="car" route="r_1" depart="2515" color="0,0,1"/>
+    <vehicle id="SN_2519" type="car" route="r_1" depart="2519" color="0,0,1"/>
+    <vehicle id="SN_2523" type="car" route="r_1" depart="2523" color="0,0,1"/>
+    <vehicle id="WE_2524" type="car" route="r_7" depart="2524" />
+    <vehicle id="EW_2526" type="car" route="r_4" depart="2526" color= "1,0,0"/>
+    <vehicle id="SN_2526" type="car" route="r_1" depart="2526" color="0,0,1"/>
+    <vehicle id="SN_2530" type="car" route="r_1" depart="2530" color="0,0,1"/>
+    <vehicle id="EW_2532" type="car" route="r_5" depart="2532" color= "1,0,0"/>
+    <vehicle id="NS_2533" type="car" route="r_11" depart="2533" color="0,1,0"/>
+    <vehicle id="WE_2534" type="car" route="r_7" depart="2534" />
+    <vehicle id="NS_2539" type="car" route="r_11" depart="2539" color="0,1,0"/>
+    <vehicle id="WE_2540" type="car" route="r_8" depart="2540" />
+    <vehicle id="NS_2543" type="car" route="r_9" depart="2543" color="0,1,0"/>
+    <vehicle id="SN_2545" type="truck" route="r_1" depart="2545" color="0,0,1"/>
+    <vehicle id="EW_2546" type="car" route="r_5" depart="2546" color= "1,0,0"/>
+    <vehicle id="EW_2548" type="car" route="r_4" depart="2548" color= "1,0,0"/>
+    <vehicle id="SN_2548" type="car" route="r_2" depart="2548" color="0,0,1"/>
+    <vehicle id="NS_2550" type="car" route="r_11" depart="2550" color="0,1,0"/>
+    <vehicle id="NS_2552" type="car" route="r_10" depart="2552" color="0,1,0"/>
+    <vehicle id="NS_2554" type="car" route="r_9" depart="2554" color="0,1,0"/>
+    <vehicle id="WE_2555" type="car" route="r_7" depart="2555" />
+    <vehicle id="WE_2556" type="car" route="r_8" depart="2556" />
+    <vehicle id="WE_2559" type="car" route="r_7" depart="2559" />
+    <vehicle id="SN_2559" type="car" route="r_0" depart="2559" color="0,0,1"/>
+    <vehicle id="NS_2561" type="truck" route="r_11" depart="2561" color="0,1,0"/>
+    <vehicle id="SN_2563" type="car" route="r_2" depart="2563" color="0,0,1"/>
+    <vehicle id="EW_2564" type="car" route="r_3" depart="2564" color= "1,0,0"/>
+    <vehicle id="NS_2564" type="car" route="r_10" depart="2564" color="0,1,0"/>
+    <vehicle id="EW_2569" type="car" route="r_4" depart="2569" color= "1,0,0"/>
+    <vehicle id="EW_2570" type="car" route="r_3" depart="2570" color= "1,0,0"/>
+    <vehicle id="NS_2576" type="car" route="r_9" depart="2576" color="0,1,0"/>
+    <vehicle id="SN_2578" type="car" route="r_0" depart="2578" color="0,0,1"/>
+    <vehicle id="EW_2579" type="car" route="r_4" depart="2579" color= "1,0,0"/>
+    <vehicle id="EW_2581" type="car" route="r_3" depart="2581" color= "1,0,0"/>
+    <vehicle id="EW_2587" type="car" route="r_4" depart="2587" color= "1,0,0"/>
+    <vehicle id="WE_2591" type="car" route="r_6" depart="2591" />
+    <vehicle id="EW_2594" type="car" route="r_5" depart="2594" color= "1,0,0"/>
+    <vehicle id="NS_2596" type="car" route="r_9" depart="2596" color="0,1,0"/>
+    <vehicle id="EW_2598" type="car" route="r_5" depart="2598" color= "1,0,0"/>
+    <vehicle id="NS_2599" type="car" route="r_11" depart="2599" color="0,1,0"/>
+    <vehicle id="SN_2600" type="car" route="r_0" depart="2600" color="0,0,1"/>
+    <vehicle id="WE_2602" type="car" route="r_8" depart="2602" />
+    <vehicle id="EW_2602" type="car" route="r_3" depart="2602" color= "1,0,0"/>
+    <vehicle id="NS_2602" type="car" route="r_9" depart="2602" color="0,1,0"/>
+    <vehicle id="NS_2606" type="car" route="r_11" depart="2606" color="0,1,0"/>
+    <vehicle id="SN_2606" type="car" route="r_1" depart="2606" color="0,0,1"/>
+    <vehicle id="WE_2607" type="car" route="r_6" depart="2607" />
+    <vehicle id="NS_2616" type="truck" route="r_11" depart="2616" color="0,1,0"/>
+    <vehicle id="SN_2617" type="car" route="r_0" depart="2617" color="0,0,1"/>
+    <vehicle id="WE_2618" type="car" route="r_6" depart="2618" />
+    <vehicle id="EW_2620" type="car" route="r_4" depart="2620" color= "1,0,0"/>
+    <vehicle id="SN_2621" type="truck" route="r_0" depart="2621" color="0,0,1"/>
+    <vehicle id="NS_2624" type="car" route="r_10" depart="2624" color="0,1,0"/>
+    <vehicle id="SN_2631" type="car" route="r_1" depart="2631" color="0,0,1"/>
+    <vehicle id="SN_2637" type="car" route="r_1" depart="2637" color="0,0,1"/>
+    <vehicle id="SN_2640" type="car" route="r_0" depart="2640" color="0,0,1"/>
+    <vehicle id="WE_2641" type="car" route="r_6" depart="2641" />
+    <vehicle id="NS_2641" type="truck" route="r_9" depart="2641" color="0,1,0"/>
+    <vehicle id="WE_2646" type="car" route="r_6" depart="2646" />
+    <vehicle id="NS_2646" type="truck" route="r_9" depart="2646" color="0,1,0"/>
+    <vehicle id="SN_2646" type="car" route="r_0" depart="2646" color="0,0,1"/>
+    <vehicle id="WE_2648" type="car" route="r_7" depart="2648" />
+    <vehicle id="NS_2653" type="car" route="r_9" depart="2653" color="0,1,0"/>
+    <vehicle id="SN_2656" type="car" route="r_0" depart="2656" color="0,0,1"/>
+    <vehicle id="WE_2658" type="car" route="r_6" depart="2658" />
+    <vehicle id="EW_2658" type="car" route="r_4" depart="2658" color= "1,0,0"/>
+    <vehicle id="SN_2661" type="car" route="r_1" depart="2661" color="0,0,1"/>
+    <vehicle id="WE_2662" type="car" route="r_7" depart="2662" />
+    <vehicle id="EW_2662" type="car" route="r_5" depart="2662" color= "1,0,0"/>
+    <vehicle id="WE_2666" type="truck" route="r_8" depart="2666" />
+    <vehicle id="SN_2667" type="car" route="r_1" depart="2667" color="0,0,1"/>
+    <vehicle id="NS_2676" type="car" route="r_9" depart="2676" color="0,1,0"/>
+    <vehicle id="SN_2679" type="car" route="r_2" depart="2679" color="0,0,1"/>
+    <vehicle id="NS_2680" type="car" route="r_10" depart="2680" color="0,1,0"/>
+    <vehicle id="WE_2685" type="car" route="r_7" depart="2685" />
+    <vehicle id="SN_2685" type="car" route="r_2" depart="2685" color="0,0,1"/>
+    <vehicle id="EW_2687" type="car" route="r_5" depart="2687" color= "1,0,0"/>
+    <vehicle id="NS_2690" type="car" route="r_11" depart="2690" color="0,1,0"/>
+    <vehicle id="NS_2697" type="car" route="r_10" depart="2697" color="0,1,0"/>
+    <vehicle id="WE_2705" type="car" route="r_8" depart="2705" />
+    <vehicle id="SN_2706" type="car" route="r_0" depart="2706" color="0,0,1"/>
+    <vehicle id="NS_2715" type="car" route="r_11" depart="2715" color="0,1,0"/>
+    <vehicle id="WE_2718" type="car" route="r_6" depart="2718" />
+    <vehicle id="NS_2719" type="car" route="r_11" depart="2719" color="0,1,0"/>
+    <vehicle id="EW_2721" type="car" route="r_4" depart="2721" color= "1,0,0"/>
+    <vehicle id="EW_2725" type="car" route="r_3" depart="2725" color= "1,0,0"/>
+    <vehicle id="NS_2726" type="car" route="r_11" depart="2726" color="0,1,0"/>
+    <vehicle id="NS_2727" type="car" route="r_9" depart="2727" color="0,1,0"/>
+    <vehicle id="WE_2731" type="car" route="r_7" depart="2731" />
+    <vehicle id="SN_2732" type="car" route="r_0" depart="2732" color="0,0,1"/>
+    <vehicle id="WE_2736" type="car" route="r_8" depart="2736" />
+    <vehicle id="NS_2739" type="car" route="r_11" depart="2739" color="0,1,0"/>
+    <vehicle id="WE_2740" type="car" route="r_7" depart="2740" />
+    <vehicle id="EW_2743" type="car" route="r_5" depart="2743" color= "1,0,0"/>
+    <vehicle id="SN_2748" type="car" route="r_2" depart="2748" color="0,0,1"/>
+    <vehicle id="NS_2749" type="car" route="r_11" depart="2749" color="0,1,0"/>
+    <vehicle id="SN_2749" type="car" route="r_2" depart="2749" color="0,0,1"/>
+    <vehicle id="WE_2750" type="car" route="r_7" depart="2750" />
+    <vehicle id="WE_2752" type="truck" route="r_8" depart="2752" />
+    <vehicle id="EW_2761" type="car" route="r_5" depart="2761" color= "1,0,0"/>
+    <vehicle id="SN_2761" type="truck" route="r_0" depart="2761" color="0,0,1"/>
+    <vehicle id="NS_2762" type="car" route="r_10" depart="2762" color="0,1,0"/>
+    <vehicle id="WE_2767" type="car" route="r_6" depart="2767" />
+    <vehicle id="EW_2769" type="car" route="r_4" depart="2769" color= "1,0,0"/>
+    <vehicle id="NS_2771" type="car" route="r_10" depart="2771" color="0,1,0"/>
+    <vehicle id="NS_2775" type="car" route="r_11" depart="2775" color="0,1,0"/>
+    <vehicle id="NS_2778" type="car" route="r_10" depart="2778" color="0,1,0"/>
+    <vehicle id="EW_2782" type="car" route="r_5" depart="2782" color= "1,0,0"/>
+    <vehicle id="SN_2783" type="car" route="r_1" depart="2783" color="0,0,1"/>
+    <vehicle id="WE_2787" type="car" route="r_8" depart="2787" />
+    <vehicle id="EW_2789" type="car" route="r_5" depart="2789" color= "1,0,0"/>
+    <vehicle id="EW_2791" type="truck" route="r_5" depart="2791" color= "1,0,0"/>
+    <vehicle id="SN_2793" type="car" route="r_2" depart="2793" color="0,0,1"/>
+    <vehicle id="NS_2800" type="car" route="r_9" depart="2800" color="0,1,0"/>
+    <vehicle id="NS_2802" type="car" route="r_11" depart="2802" color="0,1,0"/>
+    <vehicle id="SN_2807" type="car" route="r_0" depart="2807" color="0,0,1"/>
+    <vehicle id="WE_2808" type="car" route="r_6" depart="2808" />
+    <vehicle id="NS_2808" type="car" route="r_10" depart="2808" color="0,1,0"/>
+    <vehicle id="SN_2809" type="truck" route="r_0" depart="2809" color="0,0,1"/>
+    <vehicle id="WE_2811" type="car" route="r_8" depart="2811" />
+    <vehicle id="WE_2819" type="car" route="r_8" depart="2819" />
+    <vehicle id="WE_2821" type="car" route="r_7" depart="2821" />
+    <vehicle id="EW_2821" type="car" route="r_4" depart="2821" color= "1,0,0"/>
+    <vehicle id="EW_2822" type="car" route="r_4" depart="2822" color= "1,0,0"/>
+    <vehicle id="WE_2824" type="car" route="r_7" depart="2824" />
+    <vehicle id="EW_2824" type="car" route="r_3" depart="2824" color= "1,0,0"/>
+    <vehicle id="WE_2832" type="car" route="r_7" depart="2832" />
+    <vehicle id="NS_2832" type="truck" route="r_10" depart="2832" color="0,1,0"/>
+    <vehicle id="SN_2842" type="car" route="r_1" depart="2842" color="0,0,1"/>
+    <vehicle id="WE_2846" type="car" route="r_7" depart="2846" />
+    <vehicle id="NS_2855" type="car" route="r_11" depart="2855" color="0,1,0"/>
+    <vehicle id="SN_2857" type="car" route="r_2" depart="2857" color="0,0,1"/>
+    <vehicle id="EW_2866" type="car" route="r_5" depart="2866" color= "1,0,0"/>
+    <vehicle id="SN_2867" type="car" route="r_2" depart="2867" color="0,0,1"/>
+    <vehicle id="WE_2869" type="car" route="r_6" depart="2869" />
+    <vehicle id="WE_2875" type="car" route="r_6" depart="2875" />
+    <vehicle id="EW_2879" type="car" route="r_4" depart="2879" color= "1,0,0"/>
+    <vehicle id="WE_2890" type="car" route="r_6" depart="2890" />
+    <vehicle id="WE_2893" type="car" route="r_6" depart="2893" />
+    <vehicle id="SN_2895" type="car" route="r_1" depart="2895" color="0,0,1"/>
+    <vehicle id="SN_2896" type="car" route="r_1" depart="2896" color="0,0,1"/>
+    <vehicle id="NS_2897" type="car" route="r_10" depart="2897" color="0,1,0"/>
+    <vehicle id="SN_2897" type="truck" route="r_1" depart="2897" color="0,0,1"/>
+    <vehicle id="WE_2899" type="car" route="r_7" depart="2899" />
+    <vehicle id="SN_2900" type="car" route="r_2" depart="2900" color="0,0,1"/>
+    <vehicle id="SN_2905" type="car" route="r_1" depart="2905" color="0,0,1"/>
+    <vehicle id="SN_2910" type="car" route="r_2" depart="2910" color="0,0,1"/>
+    <vehicle id="SN_2911" type="car" route="r_1" depart="2911" color="0,0,1"/>
+    <vehicle id="SN_2915" type="car" route="r_0" depart="2915" color="0,0,1"/>
+    <vehicle id="WE_2916" type="car" route="r_8" depart="2916" />
+    <vehicle id="NS_2919" type="car" route="r_11" depart="2919" color="0,1,0"/>
+    <vehicle id="NS_2922" type="car" route="r_11" depart="2922" color="0,1,0"/>
+    <vehicle id="WE_2923" type="car" route="r_6" depart="2923" />
+    <vehicle id="SN_2931" type="car" route="r_1" depart="2931" color="0,0,1"/>
+    <vehicle id="WE_2936" type="car" route="r_8" depart="2936" />
+    <vehicle id="NS_2937" type="car" route="r_11" depart="2937" color="0,1,0"/>
+    <vehicle id="NS_2938" type="car" route="r_9" depart="2938" color="0,1,0"/>
+    <vehicle id="EW_2943" type="car" route="r_4" depart="2943" color= "1,0,0"/>
+    <vehicle id="NS_2943" type="car" route="r_9" depart="2943" color="0,1,0"/>
+    <vehicle id="SN_2943" type="car" route="r_0" depart="2943" color="0,0,1"/>
+    <vehicle id="WE_2944" type="car" route="r_7" depart="2944" />
+    <vehicle id="EW_2946" type="car" route="r_3" depart="2946" color= "1,0,0"/>
+    <vehicle id="EW_2948" type="car" route="r_5" depart="2948" color= "1,0,0"/>
+    <vehicle id="WE_2952" type="car" route="r_7" depart="2952" />
+    <vehicle id="SN_2952" type="car" route="r_1" depart="2952" color="0,0,1"/>
+    <vehicle id="SN_2953" type="truck" route="r_2" depart="2953" color="0,0,1"/>
+    <vehicle id="NS_2954" type="car" route="r_11" depart="2954" color="0,1,0"/>
+    <vehicle id="SN_2955" type="truck" route="r_1" depart="2955" color="0,0,1"/>
+    <vehicle id="NS_2960" type="car" route="r_9" depart="2960" color="0,1,0"/>
+    <vehicle id="WE_2961" type="car" route="r_6" depart="2961" />
+    <vehicle id="WE_2962" type="truck" route="r_6" depart="2962" />
+    <vehicle id="NS_2962" type="car" route="r_9" depart="2962" color="0,1,0"/>
+    <vehicle id="SN_2962" type="truck" route="r_2" depart="2962" color="0,0,1"/>
+    <vehicle id="NS_2963" type="truck" route="r_10" depart="2963" color="0,1,0"/>
+    <vehicle id="WE_2964" type="car" route="r_6" depart="2964" />
+    <vehicle id="EW_2969" type="car" route="r_4" depart="2969" color= "1,0,0"/>
+    <vehicle id="EW_2981" type="car" route="r_4" depart="2981" color= "1,0,0"/>
+    <vehicle id="NS_2982" type="car" route="r_10" depart="2982" color="0,1,0"/>
+    <vehicle id="SN_2993" type="car" route="r_0" depart="2993" color="0,0,1"/>
+    <vehicle id="WE_2995" type="truck" route="r_8" depart="2995" />
+    <vehicle id="EW_2995" type="car" route="r_3" depart="2995" color= "1,0,0"/>
+    <vehicle id="NS_2997" type="car" route="r_10" depart="2997" color="0,1,0"/>
+    <vehicle id="NS_3000" type="car" route="r_10" depart="3000" color="0,1,0"/>
+    <vehicle id="WE_3002" type="car" route="r_8" depart="3002" />
+    <vehicle id="EW_3003" type="car" route="r_3" depart="3003" color= "1,0,0"/>
+    <vehicle id="SN_3003" type="truck" route="r_2" depart="3003" color="0,0,1"/>
+    <vehicle id="SN_3004" type="car" route="r_1" depart="3004" color="0,0,1"/>
+    <vehicle id="EW_3007" type="car" route="r_3" depart="3007" color= "1,0,0"/>
+    <vehicle id="WE_3008" type="car" route="r_8" depart="3008" />
+    <vehicle id="NS_3009" type="car" route="r_10" depart="3009" color="0,1,0"/>
+    <vehicle id="NS_3011" type="truck" route="r_10" depart="3011" color="0,1,0"/>
+    <vehicle id="SN_3014" type="car" route="r_1" depart="3014" color="0,0,1"/>
+    <vehicle id="EW_3017" type="car" route="r_3" depart="3017" color= "1,0,0"/>
+    <vehicle id="NS_3018" type="car" route="r_11" depart="3018" color="0,1,0"/>
+    <vehicle id="WE_3021" type="truck" route="r_7" depart="3021" />
+    <vehicle id="SN_3021" type="car" route="r_2" depart="3021" color="0,0,1"/>
+    <vehicle id="SN_3024" type="car" route="r_1" depart="3024" color="0,0,1"/>
+    <vehicle id="EW_3026" type="car" route="r_3" depart="3026" color= "1,0,0"/>
+    <vehicle id="EW_3027" type="car" route="r_4" depart="3027" color= "1,0,0"/>
+    <vehicle id="NS_3028" type="car" route="r_11" depart="3028" color="0,1,0"/>
+    <vehicle id="SN_3028" type="car" route="r_0" depart="3028" color="0,0,1"/>
+    <vehicle id="SN_3033" type="car" route="r_1" depart="3033" color="0,0,1"/>
+    <vehicle id="NS_3034" type="car" route="r_9" depart="3034" color="0,1,0"/>
+    <vehicle id="EW_3035" type="car" route="r_5" depart="3035" color= "1,0,0"/>
+    <vehicle id="EW_3038" type="car" route="r_4" depart="3038" color= "1,0,0"/>
+    <vehicle id="NS_3039" type="car" route="r_11" depart="3039" color="0,1,0"/>
+    <vehicle id="WE_3043" type="car" route="r_8" depart="3043" />
+    <vehicle id="WE_3045" type="truck" route="r_6" depart="3045" />
+    <vehicle id="EW_3045" type="car" route="r_5" depart="3045" color= "1,0,0"/>
+    <vehicle id="SN_3045" type="car" route="r_1" depart="3045" color="0,0,1"/>
+    <vehicle id="NS_3049" type="car" route="r_10" depart="3049" color="0,1,0"/>
+    <vehicle id="EW_3051" type="car" route="r_5" depart="3051" color= "1,0,0"/>
+    <vehicle id="NS_3052" type="car" route="r_11" depart="3052" color="0,1,0"/>
+    <vehicle id="EW_3053" type="car" route="r_4" depart="3053" color= "1,0,0"/>
+    <vehicle id="NS_3053" type="car" route="r_11" depart="3053" color="0,1,0"/>
+    <vehicle id="EW_3054" type="car" route="r_4" depart="3054" color= "1,0,0"/>
+    <vehicle id="SN_3056" type="car" route="r_0" depart="3056" color="0,0,1"/>
+    <vehicle id="WE_3058" type="car" route="r_8" depart="3058" />
+    <vehicle id="NS_3060" type="car" route="r_9" depart="3060" color="0,1,0"/>
+    <vehicle id="EW_3061" type="truck" route="r_3" depart="3061" color= "1,0,0"/>
+    <vehicle id="NS_3064" type="car" route="r_11" depart="3064" color="0,1,0"/>
+    <vehicle id="SN_3064" type="car" route="r_0" depart="3064" color="0,0,1"/>
+    <vehicle id="SN_3074" type="car" route="r_0" depart="3074" color="0,0,1"/>
+    <vehicle id="NS_3075" type="car" route="r_11" depart="3075" color="0,1,0"/>
+    <vehicle id="SN_3078" type="truck" route="r_2" depart="3078" color="0,0,1"/>
+    <vehicle id="SN_3088" type="car" route="r_1" depart="3088" color="0,0,1"/>
+    <vehicle id="WE_3089" type="car" route="r_6" depart="3089" />
+    <vehicle id="WE_3094" type="car" route="r_6" depart="3094" />
+    <vehicle id="WE_3096" type="car" route="r_6" depart="3096" />
+    <vehicle id="NS_3096" type="car" route="r_9" depart="3096" color="0,1,0"/>
+    <vehicle id="EW_3098" type="car" route="r_4" depart="3098" color= "1,0,0"/>
+    <vehicle id="SN_3100" type="car" route="r_1" depart="3100" color="0,0,1"/>
+    <vehicle id="WE_3101" type="car" route="r_8" depart="3101" />
+    <vehicle id="EW_3104" type="car" route="r_3" depart="3104" color= "1,0,0"/>
+    <vehicle id="EW_3105" type="car" route="r_5" depart="3105" color= "1,0,0"/>
+    <vehicle id="SN_3106" type="car" route="r_0" depart="3106" color="0,0,1"/>
+    <vehicle id="EW_3107" type="car" route="r_5" depart="3107" color= "1,0,0"/>
+    <vehicle id="EW_3110" type="car" route="r_5" depart="3110" color= "1,0,0"/>
+    <vehicle id="NS_3111" type="car" route="r_9" depart="3111" color="0,1,0"/>
+    <vehicle id="SN_3111" type="car" route="r_0" depart="3111" color="0,0,1"/>
+    <vehicle id="WE_3116" type="car" route="r_6" depart="3116" />
+    <vehicle id="EW_3117" type="car" route="r_5" depart="3117" color= "1,0,0"/>
+    <vehicle id="WE_3126" type="car" route="r_7" depart="3126" />
+    <vehicle id="WE_3128" type="car" route="r_7" depart="3128" />
+    <vehicle id="WE_3129" type="car" route="r_7" depart="3129" />
+    <vehicle id="EW_3131" type="car" route="r_4" depart="3131" color= "1,0,0"/>
+    <vehicle id="SN_3136" type="car" route="r_2" depart="3136" color="0,0,1"/>
+    <vehicle id="NS_3137" type="car" route="r_9" depart="3137" color="0,1,0"/>
+    <vehicle id="WE_3138" type="car" route="r_8" depart="3138" />
+    <vehicle id="SN_3143" type="truck" route="r_2" depart="3143" color="0,0,1"/>
+    <vehicle id="NS_3144" type="car" route="r_10" depart="3144" color="0,1,0"/>
+    <vehicle id="SN_3145" type="car" route="r_0" depart="3145" color="0,0,1"/>
+    <vehicle id="EW_3149" type="car" route="r_3" depart="3149" color= "1,0,0"/>
+    <vehicle id="SN_3158" type="car" route="r_1" depart="3158" color="0,0,1"/>
+    <vehicle id="WE_3161" type="truck" route="r_6" depart="3161" />
+    <vehicle id="SN_3162" type="car" route="r_1" depart="3162" color="0,0,1"/>
+    <vehicle id="NS_3164" type="truck" route="r_11" depart="3164" color="0,1,0"/>
+    <vehicle id="EW_3168" type="car" route="r_3" depart="3168" color= "1,0,0"/>
+    <vehicle id="EW_3169" type="car" route="r_4" depart="3169" color= "1,0,0"/>
+    <vehicle id="NS_3169" type="truck" route="r_11" depart="3169" color="0,1,0"/>
+    <vehicle id="SN_3169" type="car" route="r_2" depart="3169" color="0,0,1"/>
+    <vehicle id="EW_3173" type="car" route="r_3" depart="3173" color= "1,0,0"/>
+    <vehicle id="WE_3178" type="car" route="r_6" depart="3178" />
+    <vehicle id="WE_3186" type="car" route="r_6" depart="3186" />
+    <vehicle id="SN_3189" type="car" route="r_0" depart="3189" color="0,0,1"/>
+    <vehicle id="EW_3191" type="car" route="r_3" depart="3191" color= "1,0,0"/>
+    <vehicle id="EW_3192" type="car" route="r_4" depart="3192" color= "1,0,0"/>
+    <vehicle id="WE_3194" type="car" route="r_6" depart="3194" />
+    <vehicle id="WE_3197" type="car" route="r_6" depart="3197" />
+    <vehicle id="WE_3199" type="car" route="r_8" depart="3199" />
+    <vehicle id="EW_3200" type="car" route="r_3" depart="3200" color= "1,0,0"/>
+    <vehicle id="NS_3200" type="car" route="r_11" depart="3200" color="0,1,0"/>
+    <vehicle id="SN_3200" type="car" route="r_1" depart="3200" color="0,0,1"/>
+    <vehicle id="SN_3203" type="car" route="r_0" depart="3203" color="0,0,1"/>
+    <vehicle id="EW_3204" type="car" route="r_4" depart="3204" color= "1,0,0"/>
+    <vehicle id="WE_3211" type="car" route="r_6" depart="3211" />
+    <vehicle id="NS_3211" type="car" route="r_11" depart="3211" color="0,1,0"/>
+    <vehicle id="WE_3213" type="car" route="r_7" depart="3213" />
+    <vehicle id="SN_3217" type="car" route="r_2" depart="3217" color="0,0,1"/>
+    <vehicle id="SN_3222" type="car" route="r_0" depart="3222" color="0,0,1"/>
+    <vehicle id="WE_3224" type="car" route="r_8" depart="3224" />
+    <vehicle id="SN_3225" type="truck" route="r_1" depart="3225" color="0,0,1"/>
+    <vehicle id="SN_3227" type="car" route="r_1" depart="3227" color="0,0,1"/>
+    <vehicle id="SN_3231" type="car" route="r_2" depart="3231" color="0,0,1"/>
+    <vehicle id="WE_3232" type="truck" route="r_7" depart="3232" />
+    <vehicle id="WE_3244" type="car" route="r_7" depart="3244" />
+    <vehicle id="EW_3251" type="car" route="r_5" depart="3251" color= "1,0,0"/>
+    <vehicle id="WE_3252" type="car" route="r_6" depart="3252" />
+    <vehicle id="SN_3254" type="car" route="r_2" depart="3254" color="0,0,1"/>
+    <vehicle id="SN_3256" type="car" route="r_0" depart="3256" color="0,0,1"/>
+    <vehicle id="WE_3258" type="truck" route="r_6" depart="3258" />
+    <vehicle id="NS_3258" type="car" route="r_10" depart="3258" color="0,1,0"/>
+    <vehicle id="EW_3259" type="car" route="r_5" depart="3259" color= "1,0,0"/>
+    <vehicle id="NS_3260" type="car" route="r_9" depart="3260" color="0,1,0"/>
+    <vehicle id="WE_3261" type="car" route="r_7" depart="3261" />
+    <vehicle id="EW_3261" type="truck" route="r_3" depart="3261" color= "1,0,0"/>
+    <vehicle id="SN_3265" type="car" route="r_0" depart="3265" color="0,0,1"/>
+    <vehicle id="NS_3268" type="car" route="r_10" depart="3268" color="0,1,0"/>
+    <vehicle id="SN_3269" type="car" route="r_0" depart="3269" color="0,0,1"/>
+    <vehicle id="EW_3270" type="car" route="r_4" depart="3270" color= "1,0,0"/>
+    <vehicle id="EW_3273" type="car" route="r_5" depart="3273" color= "1,0,0"/>
+    <vehicle id="NS_3276" type="car" route="r_9" depart="3276" color="0,1,0"/>
+    <vehicle id="SN_3277" type="car" route="r_2" depart="3277" color="0,0,1"/>
+    <vehicle id="NS_3278" type="car" route="r_9" depart="3278" color="0,1,0"/>
+    <vehicle id="SN_3283" type="car" route="r_1" depart="3283" color="0,0,1"/>
+    <vehicle id="SN_3285" type="car" route="r_2" depart="3285" color="0,0,1"/>
+    <vehicle id="WE_3287" type="car" route="r_8" depart="3287" />
+    <vehicle id="EW_3287" type="car" route="r_3" depart="3287" color= "1,0,0"/>
+    <vehicle id="SN_3288" type="car" route="r_2" depart="3288" color="0,0,1"/>
+    <vehicle id="WE_3289" type="car" route="r_7" depart="3289" />
+    <vehicle id="WE_3292" type="car" route="r_7" depart="3292" />
+    <vehicle id="WE_3294" type="car" route="r_8" depart="3294" />
+    <vehicle id="EW_3294" type="truck" route="r_3" depart="3294" color= "1,0,0"/>
+    <vehicle id="WE_3295" type="car" route="r_7" depart="3295" />
+    <vehicle id="WE_3300" type="car" route="r_8" depart="3300" />
+    <vehicle id="EW_3303" type="car" route="r_3" depart="3303" color= "1,0,0"/>
+    <vehicle id="NS_3304" type="car" route="r_11" depart="3304" color="0,1,0"/>
+    <vehicle id="SN_3309" type="car" route="r_2" depart="3309" color="0,0,1"/>
+    <vehicle id="EW_3310" type="car" route="r_5" depart="3310" color= "1,0,0"/>
+    <vehicle id="WE_3312" type="car" route="r_6" depart="3312" />
+    <vehicle id="SN_3315" type="car" route="r_2" depart="3315" color="0,0,1"/>
+    <vehicle id="EW_3320" type="car" route="r_4" depart="3320" color= "1,0,0"/>
+    <vehicle id="SN_3324" type="car" route="r_0" depart="3324" color="0,0,1"/>
+    <vehicle id="EW_3330" type="car" route="r_3" depart="3330" color= "1,0,0"/>
+    <vehicle id="NS_3334" type="car" route="r_9" depart="3334" color="0,1,0"/>
+    <vehicle id="SN_3339" type="car" route="r_2" depart="3339" color="0,0,1"/>
+    <vehicle id="EW_3344" type="car" route="r_4" depart="3344" color= "1,0,0"/>
+    <vehicle id="SN_3347" type="car" route="r_0" depart="3347" color="0,0,1"/>
+    <vehicle id="NS_3349" type="car" route="r_10" depart="3349" color="0,1,0"/>
+    <vehicle id="NS_3350" type="car" route="r_11" depart="3350" color="0,1,0"/>
+    <vehicle id="EW_3352" type="car" route="r_5" depart="3352" color= "1,0,0"/>
+    <vehicle id="NS_3352" type="car" route="r_9" depart="3352" color="0,1,0"/>
+    <vehicle id="EW_3353" type="car" route="r_4" depart="3353" color= "1,0,0"/>
+    <vehicle id="NS_3354" type="car" route="r_9" depart="3354" color="0,1,0"/>
+    <vehicle id="WE_3360" type="car" route="r_8" depart="3360" />
+    <vehicle id="SN_3363" type="car" route="r_1" depart="3363" color="0,0,1"/>
+    <vehicle id="WE_3367" type="truck" route="r_8" depart="3367" />
+    <vehicle id="NS_3367" type="car" route="r_10" depart="3367" color="0,1,0"/>
+    <vehicle id="NS_3370" type="car" route="r_11" depart="3370" color="0,1,0"/>
+    <vehicle id="NS_3373" type="car" route="r_11" depart="3373" color="0,1,0"/>
+    <vehicle id="NS_3374" type="car" route="r_10" depart="3374" color="0,1,0"/>
+    <vehicle id="SN_3378" type="car" route="r_1" depart="3378" color="0,0,1"/>
+    <vehicle id="WE_3383" type="car" route="r_6" depart="3383" />
+    <vehicle id="EW_3385" type="car" route="r_5" depart="3385" color= "1,0,0"/>
+    <vehicle id="SN_3385" type="truck" route="r_2" depart="3385" color="0,0,1"/>
+    <vehicle id="NS_3390" type="car" route="r_11" depart="3390" color="0,1,0"/>
+    <vehicle id="WE_3393" type="car" route="r_7" depart="3393" />
+    <vehicle id="NS_3396" type="car" route="r_9" depart="3396" color="0,1,0"/>
+    <vehicle id="WE_3397" type="car" route="r_8" depart="3397" />
+    <vehicle id="EW_3400" type="car" route="r_4" depart="3400" color= "1,0,0"/>
+    <vehicle id="SN_3403" type="car" route="r_0" depart="3403" color="0,0,1"/>
+    <vehicle id="EW_3404" type="car" route="r_4" depart="3404" color= "1,0,0"/>
+    <vehicle id="NS_3404" type="car" route="r_9" depart="3404" color="0,1,0"/>
+    <vehicle id="WE_3409" type="car" route="r_6" depart="3409" />
+    <vehicle id="SN_3413" type="car" route="r_0" depart="3413" color="0,0,1"/>
+    <vehicle id="EW_3415" type="truck" route="r_5" depart="3415" color= "1,0,0"/>
+    <vehicle id="SN_3417" type="car" route="r_0" depart="3417" color="0,0,1"/>
+    <vehicle id="NS_3418" type="truck" route="r_10" depart="3418" color="0,1,0"/>
+    <vehicle id="NS_3419" type="car" route="r_9" depart="3419" color="0,1,0"/>
+    <vehicle id="SN_3419" type="car" route="r_1" depart="3419" color="0,0,1"/>
+    <vehicle id="NS_3423" type="car" route="r_10" depart="3423" color="0,1,0"/>
+    <vehicle id="EW_3427" type="truck" route="r_3" depart="3427" color= "1,0,0"/>
+    <vehicle id="NS_3428" type="car" route="r_9" depart="3428" color="0,1,0"/>
+    <vehicle id="WE_3429" type="car" route="r_7" depart="3429" />
+    <vehicle id="NS_3432" type="car" route="r_11" depart="3432" color="0,1,0"/>
+    <vehicle id="SN_3435" type="car" route="r_1" depart="3435" color="0,0,1"/>
+    <vehicle id="SN_3441" type="car" route="r_0" depart="3441" color="0,0,1"/>
+    <vehicle id="EW_3444" type="car" route="r_5" depart="3444" color= "1,0,0"/>
+    <vehicle id="NS_3450" type="car" route="r_11" depart="3450" color="0,1,0"/>
+    <vehicle id="SN_3450" type="truck" route="r_1" depart="3450" color="0,0,1"/>
+    <vehicle id="EW_3456" type="car" route="r_4" depart="3456" color= "1,0,0"/>
+    <vehicle id="NS_3457" type="car" route="r_10" depart="3457" color="0,1,0"/>
+    <vehicle id="NS_3458" type="car" route="r_10" depart="3458" color="0,1,0"/>
+    <vehicle id="WE_3460" type="car" route="r_8" depart="3460" />
+    <vehicle id="NS_3461" type="car" route="r_10" depart="3461" color="0,1,0"/>
+    <vehicle id="SN_3466" type="car" route="r_1" depart="3466" color="0,0,1"/>
+    <vehicle id="EW_3468" type="car" route="r_3" depart="3468" color= "1,0,0"/>
+    <vehicle id="NS_3471" type="car" route="r_9" depart="3471" color="0,1,0"/>
+    <vehicle id="SN_3471" type="car" route="r_0" depart="3471" color="0,0,1"/>
+    <vehicle id="WE_3478" type="car" route="r_7" depart="3478" />
+    <vehicle id="WE_3481" type="car" route="r_8" depart="3481" />
+    <vehicle id="SN_3487" type="car" route="r_2" depart="3487" color="0,0,1"/>
+    <vehicle id="EW_3489" type="car" route="r_5" depart="3489" color= "1,0,0"/>
+    <vehicle id="SN_3491" type="car" route="r_2" depart="3491" color="0,0,1"/>
+    <vehicle id="NS_3493" type="car" route="r_9" depart="3493" color="0,1,0"/>
+    <vehicle id="SN_3497" type="car" route="r_0" depart="3497" color="0,0,1"/>
+    <vehicle id="EW_3499" type="car" route="r_3" depart="3499" color= "1,0,0"/>
+    <vehicle id="NS_3501" type="car" route="r_10" depart="3501" color="0,1,0"/>
+    <vehicle id="SN_3503" type="car" route="r_1" depart="3503" color="0,0,1"/>
+    <vehicle id="EW_3505" type="car" route="r_5" depart="3505" color= "1,0,0"/>
+    <vehicle id="SN_3505" type="car" route="r_0" depart="3505" color="0,0,1"/>
+    <vehicle id="WE_3510" type="car" route="r_6" depart="3510" />
+    <vehicle id="SN_3511" type="car" route="r_1" depart="3511" color="0,0,1"/>
+    <vehicle id="SN_3512" type="car" route="r_2" depart="3512" color="0,0,1"/>
+    <vehicle id="NS_3513" type="car" route="r_10" depart="3513" color="0,1,0"/>
+    <vehicle id="EW_3515" type="car" route="r_3" depart="3515" color= "1,0,0"/>
+    <vehicle id="WE_3520" type="car" route="r_6" depart="3520" />
+    <vehicle id="SN_3523" type="truck" route="r_2" depart="3523" color="0,0,1"/>
+    <vehicle id="WE_3524" type="car" route="r_7" depart="3524" />
+    <vehicle id="EW_3528" type="car" route="r_3" depart="3528" color= "1,0,0"/>
+    <vehicle id="NS_3531" type="car" route="r_11" depart="3531" color="0,1,0"/>
+    <vehicle id="NS_3532" type="car" route="r_11" depart="3532" color="0,1,0"/>
+    <vehicle id="EW_3541" type="truck" route="r_4" depart="3541" color= "1,0,0"/>
+    <vehicle id="WE_3545" type="car" route="r_6" depart="3545" />
+    <vehicle id="NS_3550" type="car" route="r_10" depart="3550" color="0,1,0"/>
+    <vehicle id="EW_3552" type="car" route="r_4" depart="3552" color= "1,0,0"/>
+    <vehicle id="SN_3555" type="car" route="r_1" depart="3555" color="0,0,1"/>
+    <vehicle id="EW_3558" type="car" route="r_5" depart="3558" color= "1,0,0"/>
+    <vehicle id="SN_3558" type="car" route="r_1" depart="3558" color="0,0,1"/>
+    <vehicle id="NS_3561" type="car" route="r_11" depart="3561" color="0,1,0"/>
+    <vehicle id="EW_3562" type="car" route="r_3" depart="3562" color= "1,0,0"/>
+    <vehicle id="NS_3562" type="car" route="r_10" depart="3562" color="0,1,0"/>
+    <vehicle id="WE_3566" type="car" route="r_7" depart="3566" />
+    <vehicle id="NS_3566" type="car" route="r_11" depart="3566" color="0,1,0"/>
+    <vehicle id="SN_3568" type="car" route="r_1" depart="3568" color="0,0,1"/>
+    <vehicle id="EW_3569" type="car" route="r_5" depart="3569" color= "1,0,0"/>
+    <vehicle id="WE_3572" type="car" route="r_6" depart="3572" />
+    <vehicle id="NS_3580" type="car" route="r_10" depart="3580" color="0,1,0"/>
+    <vehicle id="EW_3582" type="car" route="r_4" depart="3582" color= "1,0,0"/>
+    <vehicle id="WE_3583" type="car" route="r_6" depart="3583" />
+    <vehicle id="EW_3585" type="car" route="r_4" depart="3585" color= "1,0,0"/>
+    <vehicle id="SN_3589" type="truck" route="r_1" depart="3589" color="0,0,1"/>
+    <vehicle id="EW_3593" type="car" route="r_4" depart="3593" color= "1,0,0"/>
+    <vehicle id="EW_3594" type="car" route="r_3" depart="3594" color= "1,0,0"/>
+    <vehicle id="SN_3595" type="car" route="r_2" depart="3595" color="0,0,1"/>
+    <vehicle id="WE_3597" type="car" route="r_6" depart="3597" />
+    <vehicle id="EW_3597" type="car" route="r_5" depart="3597" color= "1,0,0"/>
+    <vehicle id="EW_3598" type="car" route="r_5" depart="3598" color= "1,0,0"/>
+    <vehicle id="NS_3598" type="car" route="r_10" depart="3598" color="0,1,0"/>
+</routes>

@@ -1,0 +1,17 @@
+--------------Evalutaion Started------------------
+ Retrying in 1 seconds
+SEval Reward for the episdode 1: 232.54320986434425 TOT 1383 ACT 12 BUF 0)                
+Step #4532.00 (0ms ?*RT. ?UPS, TraCI: 2ms, vehicles TOT 1383 ACT 5 BUF 0)                 
+ Retrying in 1 seconds
+Step #5600.00 (0ms ?*RT.Eval Reward for the episdode 2: 238.95480041823868                
+Step #5703.00 (0ms ?*RT. ?UPS, TraCI: 3ms, vehicles TOT 1383 ACT 8 BUF 0)                 
+ Retrying in 1 seconds
+Step #3300.00 (0ms ?*RT. ?UPS, TraCI: 1ms, vehicles TOT 1272 ACT 140 Eval Reward for the episdode 3: 24.029146947563795
+Step #4061.00 (0ms ?*RT. ?UPS, TraCI: 2ms, vehicles TOT 1383 ACT 16 BUF 0)                
+ Retrying in 1 seconds
+Step #5600.00 (0ms ?*RT.Eval Reward for the episdode 4: 274.72928944201055                
+Step #5646.00 (0ms ?*RT. ?UPS, TraCI: 3ms, vehicles TOT 1383 ACT 4 BUF 0)                 
+ Retrying in 1 seconds
+Step #5600.00 (0ms ?*RT.Eval Reward for the episdode 5: 161.31080254600428                
+Step #5991.00 (0ms ?*RT. ?UPS, TraCI: 2ms, vehicles TOT 1383 ACT 3 BUF 0)                 
+Average Reward over 5 episodes: 186.31344984363233

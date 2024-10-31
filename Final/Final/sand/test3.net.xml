@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-04-10 19:19:10 by Eclipse SUMO netedit Version 1.19.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/poison/RL/Final Project/test3.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/poison/RL/Final Project/test3.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</configuration>
+-->
+
+<net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-27.11,-23.83,104.43,95.79" origBoundary="10000000000.00,10000000000.00,-10000000000.00,-10000000000.00" projParameter="!"/>
+
+    <edge id=":J1_0" function="internal">
+        <lane id=":J1_0_0" index="0" speed="6.51" length="9.03" shape="40.22,30.00 39.87,27.55 38.82,25.80 37.07,24.75 34.62,24.40"/>
+    </edge>
+    <edge id=":J1_1" function="internal">
+        <lane id=":J1_1_0" index="0" speed="13.89" length="14.40" shape="40.22,30.00 40.22,15.60"/>
+    </edge>
+
+    <edge id="E0" from="J0" to="J1" priority="-1" spreadType="center" length="500.00">
+        <lane id="E0_0" index="0" speed="13.89" length="500.00" shape="40.22,95.79 40.22,30.00"/>
+        <lane id="E0_1" index="1" speed="13.89" length="500.00" shape="43.42,95.79 43.42,30.00"/>
+    </edge>
+    <edge id="E1" from="J1" to="J2" priority="-1" spreadType="center" length="500.00">
+        <lane id="E1_0" index="0" speed="13.89" length="500.00" shape="49.02,21.20 104.43,21.20"/>
+        <lane id="E1_1" index="1" speed="13.89" length="500.00" shape="49.02,24.40 104.43,24.40"/>
+    </edge>
+    <edge id="E2" from="J1" to="J3" priority="-1" spreadType="center" length="500.00">
+        <lane id="E2_0" index="0" speed="13.89" length="500.00" shape="34.62,24.40 -27.11,24.40"/>
+        <lane id="E2_1" index="1" speed="13.89" length="500.00" shape="34.62,21.20 -27.11,21.20"/>
+    </edge>
+    <edge id="E3" from="J1" to="J4" priority="-1" spreadType="center" length="500.00">
+        <lane id="E3_0" index="0" speed="13.89" length="500.00" shape="40.22,15.60 40.21,-23.83"/>
+        <lane id="E3_1" index="1" speed="13.89" length="500.00" shape="43.42,15.60 43.41,-23.83"/>
+    </edge>
+
+    <junction id="J0" type="dead_end" x="41.82" y="95.79" incLanes="" intLanes="" shape="45.02,95.79 38.62,95.79"/>
+    <junction id="J1" type="priority" x="41.82" y="22.80" incLanes="E0_0 E0_1" intLanes=":J1_0_0 :J1_1_0" shape="38.62,30.00 45.02,30.00 45.46,27.78 46.02,27.00 46.79,26.44 47.79,26.11 49.02,26.00 49.02,19.60 46.79,19.15 46.02,18.60 45.46,17.82 45.13,16.82 45.02,15.60 38.62,15.60 38.17,17.82 37.62,18.60 36.84,19.15 35.84,19.49 34.62,19.60 34.62,26.00 36.84,26.44 37.62,27.00 38.17,27.78 38.51,28.78">
+        <request index="0" response="00" foes="00" cont="0"/>
+        <request index="1" response="00" foes="00" cont="0"/>
+    </junction>
+    <junction id="J2" type="dead_end" x="104.43" y="22.80" incLanes="E1_0 E1_1" intLanes="" shape="104.43,19.60 104.43,26.00"/>
+    <junction id="J3" type="dead_end" x="-27.11" y="22.80" incLanes="E2_0 E2_1" intLanes="" shape="-27.11,26.00 -27.11,19.60"/>
+    <junction id="J4" type="dead_end" x="41.81" y="-23.83" incLanes="E3_0 E3_1" intLanes="" shape="38.61,-23.83 45.01,-23.83"/>
+
+    <connection from="E0" to="E2" fromLane="0" toLane="0" via=":J1_0_0" dir="r" state="M"/>
+    <connection from="E0" to="E3" fromLane="0" toLane="0" via=":J1_1_0" dir="s" state="M"/>
+
+    <connection from=":J1_0" to="E2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":J1_1" to="E3" fromLane="0" toLane="0" dir="s" state="M"/>
+
+</net>

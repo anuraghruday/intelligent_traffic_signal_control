@@ -1,0 +1,7 @@
+2024-05-05 19:15:46,896 - INFO - Evaluation Started
+2024-05-05 19:15:46,900 - INFO - total no of vechiles generated: 1383
+2024-05-05 19:15:56,606 - INFO - Eval Reward for the episdode 1: 232.54320986434425
+2024-05-05 19:16:08,250 - INFO - Eval Reward for the episdode 2: 238.95480041823868
+2024-05-05 19:16:16,907 - INFO - Eval Reward for the episdode 3: 24.029146947563795
+2024-05-05 19:16:28,275 - INFO - Eval Reward for the episdode 4: 274.72928944201055
+2024-05-05 19:16:40,243 - INFO - Eval Reward for the episdode 5: 161.31080254600428
