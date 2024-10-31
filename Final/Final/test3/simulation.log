@@ -1,0 +1,10 @@
+2024-04-11 21:57:56,590 - ERROR - Error during episode 2: CUDA error: unspecified launch failure
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2024-05-01 19:11:20,947 - ERROR - Error occurred during episode Connection closed by SUMO.: Connection closed by SUMO.
+2024-05-01 19:11:22,280 - ERROR - Error occurred during episode Connection closed by SUMO.: Connection closed by SUMO.
+2024-05-01 19:21:31,942 - ERROR - Error occurred during episode Connection closed by SUMO.: Connection closed by SUMO.
+2024-05-01 19:21:35,180 - ERROR - Error occurred during episode Connection closed by SUMO.: Connection closed by SUMO.
+2024-05-01 19:27:09,405 - ERROR - Error occurred during close: Connection closed by SUMO.
