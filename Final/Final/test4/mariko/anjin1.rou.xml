@@ -1,0 +1,55 @@
+<routes>
+
+    <vType id="car" vClass="passenger" length="4" maxSpeed="25.0" accel="2.6" decel="4.5"/>
+    <vType id="truck" vClass="truck" length="10" maxSpeed="20.0" accel="1.2" decel="2.5"/>
+    
+    <route id="r_0" edges="3i 1o"/>
+    <route id="r_1" edges="3i 4o"/>
+    <route id="r_10" edges="2i 3o"/>
+    <route id="r_11" edges="2i 4o"/>
+    <route id="r_2" edges="3i 2o"/>
+    <route id="r_3" edges="4i 3o"/>
+    <route id="r_4" edges="4i 2o"/>
+    <route id="r_5" edges="4i 1o"/>
+    <route id="r_6" edges="1i 2o"/>
+    <route id="r_7" edges="1i 4o"/>
+    <route id="r_8" edges="1i 3o"/>
+    <route id="r_9" edges="2i 1o"/>
+    
+    <flow id="flow_down" begin="0" end="3600" type="car" departPos="random">
+        <routeProbDistribution>
+            <route id="r_0" probability="0.3"/>
+            <route id="r_1" probability="0.3"/>
+            <route id="r_2" probability="0.4"/>
+        </routeProbDistribution>
+        <departSpeed min="10" max="20"/>
+    </flow>
+
+    <flow id="flow_left" begin="0" end="3600" type="car" departPos="random">
+        <routeProbDistribution>
+            <route id="r_6" probability="0.3"/>
+            <route id="r_7" probability="0.3"/>
+            <route id="r_8" probability="0.4"/>
+        </routeProbDistribution>
+        <departSpeed min="10" max="20"/>
+    </flow>
+
+    <flow id="flow_right" begin="0" end="3600" type="car" departPos="random">
+        <routeProbDistribution>
+            <route id="r_9" probability="0.3"/>
+            <route id="r_11" probability="0.3"/>
+            <route id="r_10" probability="0.4"/>
+        </routeProbDistribution>
+        <departSpeed min="10" max="20"/>
+    </flow>
+
+    <flow id="flow_up" begin="0" end="3600" type="car" departPos="random">
+        <routeProbDistribution>
+            <route id="r_3" probability="0.3"/>
+            <route id="r_4" probability="0.3"/>
+            <route id="r_5" probability="0.4"/>
+        </routeProbDistribution>
+        <departSpeed min="10" max="20"/>
+    </flow>
+
+</routes>
