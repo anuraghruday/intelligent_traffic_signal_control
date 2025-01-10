@@ -1,8 +1,7 @@
 ## Traffic Signal Control with Reinforcement Learning
 # Overview
 
-This project utilizes reinforcement learning techniques to optimize traffic signal control in a simulated environment. It employs the SUMO (Simulation of Urban MObility) traffic simulation framework along with the Stable Baselines3 library for RL implementation.
-Requirements
+The "Intelligent Traffic Signal Control" project implements deep reinforcement learning to optimize traffic signal timing in urban environments using the SUMO (Simulation of Urban MObility) framework. It employs algorithms from the Stable-Baselines3 library to train agents capable of reducing vehicle waiting times and improving traffic flow. The project integrates traffic simulation data with state-of-the-art RL techniques, such as Proximal Policy Optimization (PPO) and Deep Q-Networks (DQN), to dynamically adjust signal phases based on real-time traffic conditions.
 
     Python 3.x
     SUMO (Simulation of Urban MObility) traffic simulation framework
